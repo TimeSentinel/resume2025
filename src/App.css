@@ -1,0 +1,77 @@
+/*
+    (c)2025 Lance Stubblefield - Resume Project
+*/
+
+@import "tailwindcss";
+
+.resumePage {
+    width: 850px;
+    height: 1100px;
+    @apply m-2 bg-white;
+
+    .resumeTop {
+        @apply w-full h-5/6;
+        .resumeLeft {
+            @apply border-2 border-orange-400;
+            @apply w-1/4 h-full;
+
+            .title {
+                @apply text-sm font-bold leading-tight;
+                @apply text-blue-300;
+            }
+
+            .avatar {
+                @apply w-36 h-36 mx-auto m-2 bg-contain bg-no-repeat;
+
+                background-image: url("./assets/hero.png");
+            }
+
+            .credentials {
+
+            }
+
+            .certificates {
+
+            }
+
+            .links {
+                @apply p-2 bg-blue-100;
+                .linkCell {
+                    @apply flex p-2;
+                    @apply w-11/12 mx-auto mt-1 border-t-2 border-white;
+                    .linkIcon {
+                        @apply w-10;
+                        img {
+                            @apply h-6;
+                        }
+                    }
+                    .linkImage {
+                        @apply block;
+                        img {
+                            @apply h-20;
+                        }
+                    }
+                    .linkTitle {
+                        @apply ml-2 font-bold leading-tight;
+                    }
+
+                }
+                .linkAddress {
+                    @apply px-2 font-light text-xs leading-tight;
+
+                }
+
+            }
+
+        }
+
+        .resumeRight {
+
+        }
+    }
+
+    .resumeBottom {
+
+    }
+}
+
