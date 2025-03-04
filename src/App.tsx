@@ -11,10 +11,10 @@ function App() {
                     <div className="title">resume.sol3.one</div>
                     <div className="avatar"></div>
                     <div className="credentials">
-                        Credentials
+                        <h4>Credentials</h4>
                     </div>
                     <div className="certificates">
-                        Certificates
+                        <h4>Certificates</h4>
                     </div>
                     <div className="links">
                         <ul>
