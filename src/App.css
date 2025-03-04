@@ -7,55 +7,71 @@
 .resumePage {
     width: 850px;
     height: 1100px;
-    @apply m-2 bg-white;
+    @apply m-2 bg-white text-gray-700;
 
     .resumeTop {
-        @apply w-full h-5/6;
+        height: 918px;
+        @apply flex w-full;
+        @apply border-b-2 border-blue-300;
+
         .resumeLeft {
-            @apply border-2 border-orange-400;
+            @apply border-r-4 border-blue-300;
             @apply w-1/4 h-full;
 
             .title {
-                @apply text-sm font-bold leading-tight;
-                @apply text-blue-300;
+                height: 30px;
+                @apply pl-2 pt-1 text-sm font-light italic leading-tight text-left;
+                @apply text-blue-400 bg-blue-50;
+                @apply border-b-2 border-blue-100;
             }
 
             .avatar {
-                @apply w-36 h-36 mx-auto m-2 bg-contain bg-no-repeat;
-
+                height: 140px;
+                @apply w-28 mx-auto m-2 bg-cover bg-no-repeat;
+                @apply rounded-lg;
                 background-image: url("./assets/hero.png");
             }
 
             .credentials {
-
+                height: 150px;
+                @apply border-b-2 border-t-2 border-blue-300;
             }
 
             .certificates {
-
+                height: 150px;
+                @apply border-b-2 border-blue-300;
             }
 
             .links {
+                height: 430px;
                 @apply p-2 bg-blue-100;
+
                 .linkCell {
                     @apply flex p-2;
                     @apply w-11/12 mx-auto mt-1 border-t-2 border-white;
+
                     .linkIcon {
                         @apply w-10;
+
                         img {
                             @apply h-6;
                         }
                     }
+
                     .linkImage {
                         @apply block;
+
                         img {
                             @apply h-20;
                         }
                     }
+
                     .linkTitle {
                         @apply ml-2 font-bold leading-tight;
                     }
 
                 }
+
                 .linkAddress {
                     @apply px-2 font-light text-xs leading-tight;
 
@@ -65,9 +81,76 @@
 
         }
 
-        .resumeRight {
+
+        .resumeMain {
+            @apply w-3/4 px-4;
+
+            h1 {
+                @apply mt-2 p-0 text-4xl font-bold;
+                @apply text-blue-900;
+            }
+
+            h2 {
+                @apply text-lg font-semibold;
+                @apply text-blue-300;
+            }
+
+            h3 {
+                @apply font-normal;
+                @apply text-blue-800;
+            }
+
+            p {
+                @apply font-light;
+            }
+
+            .resumeTitle {
+                @apply w-full p-2 text-center;
+            }
+
+            .resumeIntro {
+                @apply -mt-4 w-full p-2 text-center italic;
+
+            }
+
+            .resumeHR {
+                @apply w-10/12 mx-auto my-4 border-2 border-gray-200
+            }
+
+            .resumeSection {
+                @apply w-full;
+            }
+
+            .resumeExamples {
+                @apply w-full;
+
+                .exampleRow {
+                    @apply flex w-full;
+                    @apply border-2 border-orange-500;
+
+                    .exampleImage {
+                        @apply w-1/3 h-36;
+                        @apply border-2 border-purple-500;
+                    }
+
+                    .exampleSummary {
+                        @apply w-2/3 h-36;
+
+                        .exampleTitle {
+                            @apply w-full text-lg font-bold;
+                            @apply text-blue-900;
+                            @apply border-2 border-green-500;
+                        }
+
+                        .exampleDescription {
+                            @apply italic font-normal;
+                        }
+                    }
+                }
+            }
 
         }
+
     }
 
     .resumeBottom {
