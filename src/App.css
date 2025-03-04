@@ -5,12 +5,12 @@
 @import "tailwindcss";
 
 .resumePage {
-    width: 850px;
-    height: 1100px;
+    width: 1100px;
+    height: 1500px;
     @apply m-2 bg-white text-gray-700;
 
     .resumeTop {
-        height: 918px;
+        height: 1218px;
         @apply flex w-full;
         @apply border-b-2 border-blue-300;
 
@@ -33,12 +33,12 @@
             }
 
             .credentials {
-                height: 150px;
+                height: 300px;
                 @apply border-b-2 border-t-2 border-blue-300;
             }
 
             .certificates {
-                height: 150px;
+                height: 300px;
                 @apply border-b-2 border-blue-300;
             }
 
@@ -118,7 +118,8 @@
             }
 
             .resumeSection {
-                @apply w-full;
+                @apply w-full mb-2 pb-2;
+                @apply border-b-2 border-blue-200;
             }
 
             .resumeExamples {
@@ -126,20 +127,19 @@
 
                 .exampleRow {
                     @apply flex w-full;
-                    @apply border-2 border-orange-500;
+                    @apply border-b-2 border-gray-500;
 
                     .exampleImage {
-                        @apply w-1/3 h-36;
-                        @apply border-2 border-purple-500;
+                        @apply w-2/5 h-36 m-2;
+                        @apply shadow-md shadow-gray-600;
                     }
 
                     .exampleSummary {
-                        @apply w-2/3 h-36;
+                        @apply w-3/5 h-36;
 
                         .exampleTitle {
-                            @apply w-full text-lg font-bold;
+                            @apply w-full pt-1 pl-1 text-lg font-bold;
                             @apply text-blue-900;
-                            @apply border-2 border-green-500;
                         }
 
                         .exampleDescription {

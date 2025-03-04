@@ -100,6 +100,14 @@ function App() {
                         <h3>What I'm Looking For</h3>
                         <p>Remote work</p>
                     </div>
+                    <div className="resumeSection">
+                        <h3>Skills</h3>
+                        <p>Computers</p>
+                    </div>
+                    <div className="resumeSection">
+                        <h3>Experience</h3>
+                        <p>Jobs</p>
+                    </div>
                     <div className="resumeExamples">
                         <h3>Examples of Work</h3>
                         <div className="exampleRow">
