@@ -8,11 +8,33 @@
     width: 1100px;
     height: 1500px;
     @apply m-4 bg-white text-gray-700;
+    .tableContainer {
+        .tableRow {
+            @apply flex justify-between px-2;
+
+            .tableCell1 {
+                @apply w-1/6;
+                @apply text-blue-800 font-semibold;
+            }
+            .tableCell2 {
+                @apply w-1/6;
+                @apply text-blue-800 font-light;
+            }
+            .tableCell3 {
+                @apply w-4/6;
+                @apply text-blue-700 font-light italic;
+            }
+            .tableCell4 {
+                @apply w-5/6;
+                @apply text-blue-700 font-light;
+            }
+        }
+    }
 
     .resumeTop {
         height: 1232px;
         @apply flex w-full;
-        @apply shadow-md shadow-blue-200;
+        @apply shadow-md shadow-gray-300;
 
         .resumeLeft {
             @apply border-r-2 border-gray-300;
@@ -33,7 +55,7 @@
             }
 
             .credentials, .certificates {
-                height: 290px;
+                height: 300px;
 
                 h4 {
                     @apply px-2 bg-gray-400 text-center text-gray-100 font-semibold uppercase;
@@ -42,7 +64,7 @@
 
 
             .links {
-                height: 430px;
+                height: 426px;
                 @apply p-2 bg-blue-100 border-t-2 border-blue-300;
 
                 .linkCell {
@@ -119,6 +141,7 @@
             .resumeSection {
                 @apply w-full mb-2 pb-2;
                 @apply border-b-2 border-blue-200;
+
             }
 
             .resumeExamples {

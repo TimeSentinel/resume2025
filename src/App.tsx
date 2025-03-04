@@ -3,7 +3,40 @@
 import './App.css'
 
 function App() {
-
+    const skills = [
+        {title: "Front End", description: "React.js, TailwindsCSS, PostCSS, Bootstrap CSS/JS"},
+        {title: "Back End", description: "React.js"},
+        {title: "Database", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+    ]
+    const experiences = [
+        {title: "React.js", category: "Front-End", description: "React.js"},
+        {title: "React.js", category: "Front-End", description: "React.js"},
+        {title: "React.js", category: "Front-End", description: "React.js"},
+        {title: "React.js", category: "Front-End", description: "React.js"},
+        {title: "React.js", category: "Front-End", description: "React.js"},
+    ]
+    const credentials = [
+        {title: "Passport/RealID", description: "Able to travel"},
+        {title: "FA/CPR/AED", description: "First-Aid, CPR, and AED certificate from the Red Cross"},
+        {title: "Database", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+    ]
+    const certificates = [
+        {title: "Front End", description: "React.js, TailwindsCSS, PostCSS, Bootstrap CSS/JS"},
+        {title: "Back End", description: "React.js"},
+        {title: "Database", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+        {title: "React.js", description: "React.js"},
+    ]
     return (
         <div className="resumePage">
             <div className="resumeTop">
@@ -15,6 +48,7 @@ function App() {
                     </div>
                     <div className="certificates">
                         <h4>Certificates</h4>
+
                     </div>
                     <div className="links">
                         <ul>
@@ -98,15 +132,31 @@ function App() {
                     <hr className="resumeHR"/>
                     <div className="resumeSection">
                         <h3>What I'm Looking For</h3>
-                        <p>Remote work</p>
+                        <p>Opportunities to help others and find solutions. I see myself as a troubleshooter and problem
+                            solver.</p>
                     </div>
                     <div className="resumeSection">
                         <h3>Skills</h3>
-                        <p>Computers</p>
+                        <div className="tableContainer">
+                            {skills.map((skill, index) => (
+                            <div className="tableRow" key={index}>
+                                <div className="tableCell1">{skill.title}</div>
+                                <div className="tableCell4">{skill.description}</div>
+                            </div>
+                            ))}
+                        </div>
                     </div>
                     <div className="resumeSection">
                         <h3>Experience</h3>
-                        <p>Jobs</p>
+                        <div className="tableContainer">
+                            {experiences.map((experience, index) => (
+                                <div className="tableRow" key={index}>
+                                    <div className="tableCell1">{experience.title}</div>
+                                    <div className="tableCell2">{experience.category}</div>
+                                    <div className="tableCell3">{experience.description}</div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                     <div className="resumeExamples">
                         <h3>Examples of Work</h3>
