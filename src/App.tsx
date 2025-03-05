@@ -9,8 +9,6 @@ function App() {
         {title: "Database", description: "React.js"},
         {title: "React.js", description: "React.js"},
         {title: "React.js", description: "React.js"},
-        {title: "React.js", description: "React.js"},
-        {title: "React.js", description: "React.js"},
     ]
     const experiences = [
         {title: "React.js", category: "Front-End", description: "React.js"},
@@ -25,15 +23,12 @@ function App() {
         {title: "Database", description: "React.js"},
         {title: "React.js", description: "React.js"},
         {title: "React.js", description: "React.js"},
-        {title: "React.js", description: "React.js"},
-        {title: "React.js", description: "React.js"},
+
     ]
     const certificates = [
         {title: "Front End", description: "React.js, TailwindsCSS, PostCSS, Bootstrap CSS/JS"},
         {title: "Back End", description: "React.js"},
         {title: "Database", description: "React.js"},
-        {title: "React.js", description: "React.js"},
-        {title: "React.js", description: "React.js"},
         {title: "React.js", description: "React.js"},
         {title: "React.js", description: "React.js"},
     ]
@@ -45,9 +40,25 @@ function App() {
                     <div className="avatar"></div>
                     <div className="credentials">
                         <h4>Credentials</h4>
+                        <div className="tableContainer">
+                            {credentials.map((credential, index) => (
+                                <div className="tableBlock" key={index}>
+                                    <div className="tableCell5">{credential.title}</div>
+                                    <div className="tableCell6">{credential.description}</div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                     <div className="certificates">
                         <h4>Certificates</h4>
+                        <div className="tableContainer">
+                            {certificates.map((certificate, index) => (
+                                <div className="tableBlock" key={index}>
+                                    <div className="tableCell5">{certificate.title}</div>
+                                    <div className="tableCell6">{certificate.description}</div>
+                                </div>
+                            ))}
+                        </div>
 
                     </div>
                     <div className="links">
@@ -161,7 +172,7 @@ function App() {
                     <div className="resumeExamples">
                         <h3>Examples of Work</h3>
                         <div className="exampleRow">
-                            <div className="exampleImage"></div>
+                            <div className="exampleImage1"></div>
                             <div className="exampleSummary">
                                 <div className="exampleTitle">Restaurant - React</div>
                                 <div className="exampleDescription"></div>
@@ -172,10 +183,10 @@ function App() {
                                 <div className="exampleTitle">M&M Cleaning Services</div>
                                 <div className="exampleDescription"></div>
                             </div>
-                            <div className="exampleImage"></div>
+                            <div className="exampleImage2"></div>
                         </div>
                         <div className="exampleRow">
-                            <div className="exampleImage"></div>
+                            <div className="exampleImage3"></div>
                             <div className="exampleSummary">
                                 <div className="exampleTitle">CNC Router Pros</div>
                                 <div className="exampleDescription"></div>
@@ -186,7 +197,7 @@ function App() {
                                 <div className="exampleTitle">Fuzzy Taco</div>
                                 <div className="exampleDescription"></div>
                             </div>
-                            <div className="exampleImage"></div>
+                            <div className="exampleImage4"></div>
                         </div>
                     </div>
                 </div>
