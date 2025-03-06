@@ -71,7 +71,6 @@ function App() {
                                         </div>
                                         <div className="portfolioCell">
                                             <div className="linkTitle">Online Portfolio</div>
-                                            <br/>
                                             <div className="linkAddress">portfolio.sol3.one</div>
                                         </div>
                                     </div>
@@ -84,9 +83,12 @@ function App() {
                                         <div className="linkIcon">
                                             <img src="images/linkedin.png" alt="LinkedIn"/>
                                         </div>
-                                        <div className="linkTitle">LinkedIn</div>
+                                        <div className="portfolioCell">
+                                            <div className="linkTitle">LinkedIn</div>
+                                            <div className="linkAddress">linkedin.sol3.one</div>
+                                        </div>
                                     </div>
-                                    <div className="linkAddress">linkedin.sol3.one</div>
+
                                 </a>
                             </li>
                             <li>
@@ -95,9 +97,12 @@ function App() {
                                         <div className="linkIcon">
                                             <img src="images/github.png" alt="GitHub"/>
                                         </div>
+                                        <div className="portfolioCell">
                                         <div className="linkTitle">GitHub</div>
+                                            <div className="linkAddress">github.sol3.one</div>
+                                        </div>
                                     </div>
-                                    <div className="linkAddress">github.sol3.one</div>
+
                                 </a>
                             </li>
                             <li>
@@ -106,9 +111,12 @@ function App() {
                                         <div className="linkIcon">
                                             <img src="images/upwork.png" alt="Upwork"/>
                                         </div>
+                                        <div className="portfolioCell">
                                         <div className="linkTitle">Upwork</div>
+                                            <div className="linkAddress">upwork.sol3.one</div>
+                                        </div>
                                     </div>
-                                    <div className="linkAddress">upwork.sol3.one</div>
+
                                 </a>
                             </li>
                             <li>
@@ -117,9 +125,12 @@ function App() {
                                         <div className="linkIcon">
                                             <img src="images/freelancer.png" alt="Freelancer"/>
                                         </div>
+                                        <div className="portfolioCell">
                                         <div className="linkTitle">Freelancer</div>
+                                        <div className="linkAddress">freelancer.sol3.one</div>
+                                        </div>
                                     </div>
-                                    <div className="linkAddress">freelancer.sol3.one</div>
+
                                 </a>
                             </li>
                         </ul>

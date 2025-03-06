@@ -93,7 +93,7 @@
                         @apply w-10;
 
                         img {
-                            @apply h-8;
+                            @apply h-10 mt-1;
                         }
                     }
 
@@ -104,18 +104,18 @@
                     }
 
                     .linkTitle {
-                        @apply ml-2 font-bold leading-tight;
+                        @apply text-lg font-bold;
+                        @apply text-blue-900;
                     }
 
                 }
 
                 .linkAddress {
-                    @apply w-full -mt-2 pb-2 text-center pl-4 font-light leading-tight;
+                    @apply w-full text-left font-light leading-tight underline;
+                    @apply text-blue-600;
                 }
                 .portfolioCell {
-                    .linkAddress {
-                        @apply pl-2 font-light leading-tight;
-                    }
+                    @apply  pl-4;
                 }
 
             }
