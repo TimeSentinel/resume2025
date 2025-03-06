@@ -64,72 +64,63 @@ function App() {
                     <div className="links">
                         <ul>
                             <li>
-                                <div className="linkCell">
-                                    <div className="linkImage">
-                                        <img src="images/serious.png" alt="serious Lance"/>
-                                    </div>
-                                    <div>
-                                        <div className="linkTitle">Online Portfolio</div>
-                                        <br/>
-                                        <div className="linkAddress">
-                                            <a target="_blank" href="https://portfolio.sol3.one">lance.sol3.one</a>
+                                <a target="_blank" href="https://portfolio.sol3.one">
+                                    <div className="linkCell">
+                                        <div className="linkImage">
+                                            <img src="images/serious.png" alt="serious Lance"/>
+                                        </div>
+                                        <div className="portfolioCell">
+                                            <div className="linkTitle">Online Portfolio</div>
+                                            <br/>
+                                            <div className="linkAddress">portfolio.sol3.one</div>
                                         </div>
                                     </div>
-                                </div>
-
+                                </a>
                             </li>
                             <li>
-                                <div className="linkCell">
-                                    <div className="linkIcon">
-                                        <img src="images/linkedin.png" alt="LinkedIn"/>
+                                <a target="_blank"
+                                   href="https://www.linkedin.com/in/lance-stubblefield-designer/">
+                                    <div className="linkCell">
+                                        <div className="linkIcon">
+                                            <img src="images/linkedin.png" alt="LinkedIn"/>
+                                        </div>
+                                        <div className="linkTitle">LinkedIn</div>
                                     </div>
-                                    <div className="linkTitle">LinkedIn</div>
-                                </div>
-                                <div className="linkAddress">
-                                    <a target="_blank"
-                                       href="https://www.linkedin.com/in/lance-stubblefield-designer/">
-                                        https://linkedin.sol3.one
-                                    </a>
-                                </div>
+                                    <div className="linkAddress">linkedin.sol3.one</div>
+                                </a>
                             </li>
                             <li>
-                                <div className="linkCell">
-                                    <div className="linkIcon">
-                                        <img src="images/github.png" alt="GitHub"/>
+                                <a target="_blank" href="https://github.com/TimeSentinel">
+                                    <div className="linkCell">
+                                        <div className="linkIcon">
+                                            <img src="images/github.png" alt="GitHub"/>
+                                        </div>
+                                        <div className="linkTitle">GitHub</div>
                                     </div>
-                                    <div className="linkTitle">GitHub</div>
-                                </div>
-                                <div className="linkAddress">
-                                    <a target="_blank" href="https://github.com/TimeSentinel">
-                                        https://git.sol3.one
-                                    </a>
-                                </div>
+                                    <div className="linkAddress">github.sol3.one</div>
+                                </a>
                             </li>
                             <li>
-                                <div className="linkCell">
-                                    <div className="linkIcon">
-                                        <img src="images/upwork.png" alt="Upwork"/>
+                                <a target="_blank" href="https://www.upwork.com/freelancers/~01b480b3ffdda5cdfa">
+                                    <div className="linkCell">
+                                        <div className="linkIcon">
+                                            <img src="images/upwork.png" alt="Upwork"/>
+                                        </div>
+                                        <div className="linkTitle">Upwork</div>
                                     </div>
-                                    <div className="linkTitle">Upwork</div>
-                                </div>
-                                <div className="linkAddress">
-                                    <a target="_blank" href="https://www.upwork.com/freelancers/~01b480b3ffdda5cdfa">
-                                        https://upwork.sol3.one
-                                    </a>
-                                </div>
+                                    <div className="linkAddress">upwork.sol3.one</div>
+                                </a>
                             </li>
                             <li>
-                                <div className="linkCell">
-                                    <div className="linkIcon">
-                                        <img src="images/freelancer.png" alt="Freelancer"/>
+                                <a target="_blank" href="https://www.freelancer.com/u/lstubble4444">
+                                    <div className="linkCell">
+                                        <div className="linkIcon">
+                                            <img src="images/freelancer.png" alt="Freelancer"/>
+                                        </div>
+                                        <div className="linkTitle">Freelancer</div>
                                     </div>
-                                    <div className="linkTitle">Freelancer</div>
-                                </div>
-                                <div className="linkAddress">
-                                    <a target="_blank" href="https://www.freelancer.com/u/lstubble4444">
-                                        www.freelancer.com/u/lstubble4444
-                                    </a>
-                                </div>
+                                    <div className="linkAddress">freelancer.sol3.one</div>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -150,10 +141,10 @@ function App() {
                         <h3>Skills</h3>
                         <div className="tableContainer">
                             {skills.map((skill, index) => (
-                            <div className="tableRow" key={index}>
-                                <div className="tableCell1">{skill.title}</div>
-                                <div className="tableCell4">{skill.description}</div>
-                            </div>
+                                <div className="tableRow" key={index}>
+                                    <div className="tableCell1">{skill.title}</div>
+                                    <div className="tableCell4">{skill.description}</div>
+                                </div>
                             ))}
                         </div>
                     </div>

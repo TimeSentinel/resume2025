@@ -73,7 +73,7 @@
             }
 
             .credentials, .certificates {
-                height: 313px;
+                height: 310px;
 
                 h4 {
                     @apply px-2 bg-gray-400 text-center text-gray-100 font-semibold uppercase;
@@ -82,7 +82,7 @@
 
 
             .links {
-                height: 400px;
+                height: 405px;
                 @apply p-2 bg-blue-100 border-t-2 border-blue-300;
 
                 .linkCell {
@@ -93,13 +93,11 @@
                         @apply w-10;
 
                         img {
-                            @apply h-6;
+                            @apply h-8;
                         }
                     }
 
                     .linkImage {
-                        @apply block;
-
                         img {
                             @apply h-20;
                         }
@@ -112,8 +110,12 @@
                 }
 
                 .linkAddress {
-                    @apply pl-4 font-light text-xs leading-tight;
-
+                    @apply w-full -mt-2 pb-2 text-center pl-4 font-light leading-tight;
+                }
+                .portfolioCell {
+                    .linkAddress {
+                        @apply pl-2 font-light leading-tight;
+                    }
                 }
 
             }
@@ -170,7 +172,7 @@
                     @apply border-b-2 border-gray-500;
 
                     .exampleImage1, .exampleImage2, .exampleImage3, .exampleImage4 {
-                        @apply w-2/5 h-36 m-2;
+                        @apply w-2/6 h-36 m-2;
                         @apply shadow-md shadow-gray-600;
                         @apply bg-cover bg-no-repeat rounded-md;
                     }
