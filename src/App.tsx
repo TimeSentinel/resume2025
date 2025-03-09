@@ -4,11 +4,10 @@ import './App.css'
 
 function App() {
     const skills = [
-        {title: "Front End", description: "React.js, TailwindsCSS, PostCSS, Bootstrap CSS/JS"},
-        {title: "Back End", description: "React.js"},
-        {title: "Database", description: "React.js"},
-        {title: "React.js", description: "React.js"},
-        {title: "React.js", description: "React.js"},
+        {title: "Front End", description: "React.js, Typescript, TailwindsCSS, PostCSS, Bootstrap CSS/JS"},
+        {title: "Back End", description: "Node.js, Express, Next, Passport"},
+        {title: "Database", description: "PostgreSQL, Access, MongoDB"},
+        {title: "User Experience", description: "Wireframe, Figma, Penpot, Gimp"}
     ]
     const experiences = [
         {title: "React.js", category: "Front-End", description: "React.js"},
@@ -18,19 +17,19 @@ function App() {
         {title: "React.js", category: "Front-End", description: "React.js"},
     ]
     const credentials = [
-        {title: "Passport/RealID", description: "Able to travel"},
+        {title: "Passport/RealID", description: "Able to travel in the US and abroud"},
         {title: "FA/CPR/AED", description: "First-Aid, CPR, and AED certificate from the Red Cross"},
-        {title: "Database", description: "React.js"},
-        {title: "React.js", description: "React.js"},
-        {title: "React.js", description: "React.js"},
+        {title: "FAA Remote Pilot", description: "Commercial drone photography"},
+        {title: "WA Boaters Card", description: "Can operate small watercraft"},
+        {title: "SDI Open Water, Dry Suit Dive Cert", description: "Underwater photography"},
 
     ]
     const certificates = [
-        {title: "Front End", description: "React.js, TailwindsCSS, PostCSS, Bootstrap CSS/JS"},
-        {title: "Back End", description: "React.js"},
-        {title: "Database", description: "React.js"},
-        {title: "React.js", description: "React.js"},
-        {title: "React.js", description: "React.js"},
+        {title: "IBM Full Stack Developer", description: "React.js, Node.js, Next, Express"},
+        {title: "Meta Front-End Developer", description: "React.js, CSS"},
+        {title: "Google SEO Fundamentals", description: "Search Engine Optimization"},
+        {title: "Google UX Design Professional", description: "Wireframe, Figma"},
+        {title: "John Hopkins HTML/CSS/Javascript", description: "HTML, CSS, Javascript, Ajax"},
     ]
     return (
         <div className="resumePage">
@@ -140,7 +139,14 @@ function App() {
                     <div className="resumeTitle"><h1>Lance Stubblefield</h1></div>
                     <div className="resumeIntro">
                         <h2>Experienced Web Developer</h2>
-                        <p>I am saying stuff</p>
+                        <p>I have always been a creator - I love to design and build.
+                            This is why web design is so enjoyable to me and why I am constantly learning new skills
+                             and practicing my old skills.
+                            Every project is unique and gives me an opportunity to learn from my customers and partners.
+                            What does their business do? How do their customers find them? How do they want their
+                             company represented? My job is to create a bridge across the gap between a business's
+                             image and what their customer wants to find.
+                        </p>
                     </div>
                     <hr className="resumeHR"/>
                     <div className="resumeSection">
