@@ -72,6 +72,7 @@
                 z-index: 99;
                 @apply w-full  bg-cover bg-no-repeat;
                 @apply border-2 border-gray-600 rounded-xl;
+                @apply shadow-lg shadow-gray-600;
                 background-image: url("./assets/hero.png");
                 transform: translate(30px,10px)
             }
@@ -176,7 +177,9 @@
 
             .resumeSection {
                 @apply w-full mb-2 pb-2;
-                /*@apply border-b-2 border-blue-200;*/
+                p {
+                    @apply pl-2
+                }
             }
 
             .resumeExamples {
@@ -188,7 +191,7 @@
                     @apply border-b-2 border-gray-300;
 
                     .exampleImage1, .exampleImage2, .exampleImage3, .exampleImage4 {
-                        height: 157px;
+                        height: 148px;
                         @apply w-2/6 m-2;
                         @apply shadow-md shadow-gray-600;
                         @apply bg-cover bg-no-repeat rounded-md;
