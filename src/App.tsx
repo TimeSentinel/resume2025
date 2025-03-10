@@ -29,7 +29,7 @@ function App() {
         {title: "Meta Front-End Developer", description: "React.js, CSS"},
         {title: "Google SEO Fundamentals", description: "Search Engine Optimization"},
         {title: "Google UX Design Professional", description: "Wireframe, Figma"},
-        {title: "John Hopkins HTML/CSS/Javascript", description: "HTML, CSS, Javascript, Ajax"},
+        {title: "John Hopkins HTML/CSS/JS", description: "HTML, CSS, Javascript, Ajax"},
     ]
     const whyThis = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     const filmFrames = [
