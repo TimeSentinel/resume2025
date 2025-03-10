@@ -14,7 +14,7 @@
 
             .tableCell1 {
                 @apply w-1/6;
-                @apply text-blue-800 font-semibold;
+                @apply text-blue-900 font-semibold;
             }
 
             .tableCell2 {
@@ -24,12 +24,12 @@
 
             .tableCell3 {
                 @apply w-4/6;
-                @apply text-blue-700 font-light italic;
+                @apply text-gray-700 font-light italic;
             }
 
             .tableCell4 {
                 @apply w-5/6;
-                @apply text-blue-700 font-light;
+                @apply text-gray-600 font-light;
             }
         }
 
@@ -38,25 +38,26 @@
 
             .tableCell5 {
                 @apply w-full;
-                @apply text-blue-800 font-semibold;
+                @apply text-blue-900 font-semibold;
             }
 
             .tableCell6 {
                 @apply w-full pl-2 text-left;
-                @apply text-blue-700 font-light;
+                @apply text-gray-700 font-light;
                 @apply border-b-2 border-gray-200;
             }
         }
     }
 
     .resumeTop {
-        height: 1232px;
-        @apply flex w-full;
+        height: 1230px;
+        z-index: -1;
+        @apply flex w-full bg-white;
         @apply shadow-md shadow-gray-300;
 
         .resumeLeft {
-            @apply border-r-2 border-gray-300;
-            @apply bg-gray-200;
+            @apply border-r-2 border-gray-400;
+            @apply bg-white;
             @apply w-1/4 h-full;
 
             .title {
@@ -67,25 +68,34 @@
             }
 
             .avatar {
-                height: 160px;
-                @apply w-36 mx-auto my-2 bg-cover bg-no-repeat;
-                @apply rounded-full;
-                @apply shadow-lg shadow-blue-300;
+                height: 206px;
+                z-index: 99;
+                @apply w-full  bg-cover bg-no-repeat;
+                @apply border-2 border-gray-600 rounded-xl;
                 background-image: url("./assets/hero.png");
+                transform: translate(30px,10px)
+            }
+
+            .credentials {
+                height: 310px;
+            }
+
+            .certificates {
+                height: 280px;
             }
 
             .credentials, .certificates {
-                height: 310px;
                 @apply bg-white;
 
                 h4 {
-                    @apply px-2 bg-gray-400 text-center text-gray-100 font-semibold uppercase;
+                    @apply px-2 mt-1 py-0.5 bg-gray-400 text-center text-gray-100 font-semibold uppercase;
                 }
             }
 
 
             .links {
                 height: 405px;
+                z-index: 4;
                 @apply p-2 bg-blue-100 border-t-2 border-blue-300;
 
                 .linkCell {
@@ -117,8 +127,9 @@
                     @apply w-full text-left font-light leading-tight underline;
                     @apply text-blue-600;
                 }
+
                 .portfolioCell {
-                    @apply  pl-4;
+                    @apply pl-4;
                 }
 
             }
@@ -127,6 +138,7 @@
 
 
         .resumeMain {
+            z-index: 1;
             @apply w-3/4 px-4;
 
             h1 {
@@ -140,8 +152,9 @@
             }
 
             h3 {
-                @apply font-normal text-xl;
-                @apply text-blue-800;
+                @apply py-0.5 pl-8 font-semibold text-xl;
+                @apply text-blue-800 bg-blue-200;
+                @apply border-b-2 border-blue-950;
             }
 
             p {
@@ -149,33 +162,34 @@
             }
 
             .resumeTitle {
-                @apply w-full p-2 text-center;
+                @apply w-full ml-6 p-2 text-left;
             }
 
             .resumeIntro {
-                @apply -mt-4 w-full p-2 text-center italic;
+                @apply w-full -mt-4 ml-6 p-2 text-left italic;
 
             }
 
             .resumeHR {
-                @apply w-10/12 mx-auto my-4 border-2 border-gray-200
+                @apply w-10/12 mx-auto my-3 border-2 border-gray-200
             }
 
             .resumeSection {
                 @apply w-full mb-2 pb-2;
-                @apply border-b-2 border-blue-200;
-
+                /*@apply border-b-2 border-blue-200;*/
             }
 
             .resumeExamples {
                 @apply w-full;
+                z-index: 4;
 
                 .exampleRow {
                     @apply flex w-full;
-                    @apply border-b-2 border-gray-500;
+                    @apply border-b-2 border-gray-300;
 
                     .exampleImage1, .exampleImage2, .exampleImage3, .exampleImage4 {
-                        @apply w-2/6 h-36 m-2;
+                        height: 157px;
+                        @apply w-2/6 m-2;
                         @apply shadow-md shadow-gray-600;
                         @apply bg-cover bg-no-repeat rounded-md;
                     }
@@ -197,7 +211,7 @@
                     }
 
                     .exampleSummary {
-                        @apply w-3/5 h-36;
+                        @apply w-3/5 h-36 mt-1;
 
                         .exampleTitle {
                             @apply w-full pt-1 pl-1 text-lg font-bold;
@@ -205,7 +219,8 @@
                         }
 
                         .exampleDescription {
-                            @apply italic font-normal;
+                            @apply pl-2 italic font-normal;
+                            @apply text-gray-700;
                         }
                     }
                 }
@@ -216,13 +231,65 @@
     }
 
     .resumeBottom {
-        height: 200px;
+        position: relative;
+        z-index: 99;
+
+        .filmstrip {
+            height: 200px;
+            @apply w-full;
+            @apply bg-blue-950 shadow-lg shadow-gray-600;
+
+            .filmRack {
+                height: 30px;
+                @apply flex w-full justify-around py-2;
+
+                .filmHole {
+                    @apply p-2 bg-white;
+                }
+            }
+
+            .filmFrames {
+                height: 140px;
+                @apply flex flex-row w-full justify-around;
+
+                .frame, .frame img {
+                    width: 200px;
+                    height: 134px;
+                    @apply bg-gray-300 my-auto rounded-sm  shadow-inner shadow-gray-900;
+                }
+            }
+        }
+        .tagline {
+            @apply flex py-1 text-xs;
+            .tagLeft {
+               @apply w-1/3 ml-4 font-light text-blue-800
+            }
+            .tagCenter {
+                @apply  w-1/3;
+            }
+            .tagRight {
+                @apply w-1/3 mr-4 text-right font-normal text-blue-900;
+            }
+        }
     }
 }
+
+
 @media print {
     .resumePage {
-      @apply m-0 p-0 bg-white;
-      transform: scale(.90)
+        @apply m-0 p-0 bg-white;
+        transform: scale(.90)
+    }
+
+    body {
+        visibility: hidden;
+    }
+
+    .resumePage {
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 }
 
