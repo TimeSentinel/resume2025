@@ -1,0 +1,2744 @@
+Info 0    [16:41:02.588] Starting TS Server
+Info 1    [16:41:02.588] Version: 5.7.3
+Info 2    [16:41:02.588] Arguments: /usr/bin/node /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/js-language-service.js -id=1741650062320 -debug-name=typescript --pluginProbeLocations /p7/LiveProjects/resume2025,/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript --globalPlugins tsc-ide-plugin --cancellationPipeName /tmp/tsServerCancellationPipes/cmd*
+Info 3    [16:41:02.588] Platform: linux NodeVersion: v23.9.0 CaseSensitive: true
+Info 4    [16:41:02.588] ServerMode: undefined hasUnknownServerMode: undefined
+Info 5    [16:41:02.590] currentDirectory:: /p7/LiveProjects/resume2025 useCaseSensitiveFileNames:: true
+Info 6    [16:41:02.590] libs Location:: /p7/LiveProjects/resume2025/node_modules/typescript/lib
+Info 7    [16:41:02.590] globalTypingsCacheLocation:: /home/lance/.cache/typescript/5.7
+Info 8    [16:41:02.592] Binding...
+Err 9     [16:41:02.598] Process: Require is used /p7/LiveProjects/resume2025/node_modules/typescript/lib/
+Info 10   [16:41:02.607] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "typingsInstallerPid",
+      "body": {
+        "pid": 250645
+      }
+    }
+Info 11   [16:41:02.614] request:
+    {"sessionId":1741650062320,"seq":0,"type":"request","command":"configure","arguments":{"hostInfo":"IntelliJ","extraFileExtensions":[],"preferences":{"includeInlayParameterNameHints":"none","includeInlayParameterNameHintsWhenArgumentMatchesName":false,"includeInlayFunctionParameterTypeHints":true,"includeInlayVariableTypeHints":true,"includeInlayVariableTypeHintsWhenTypeMatchesName":true,"includeInlayPropertyDeclarationTypeHints":true,"includeInlayFunctionLikeReturnTypeHints":true,"includeInlayEnumMemberValueHints":true,"interactiveInlayHints":true}}}
+Info 12   [16:41:02.614] Host information IntelliJ
+Info 13   [16:41:02.615] reload projects.
+Info 14   [16:41:02.615] Before ensureProjectForOpenFiles:
+Info 15   [16:41:02.615] Open files: 
+Info 15   [16:41:02.615] After ensureProjectForOpenFiles:
+Info 16   [16:41:02.615] Open files: 
+Info 16   [16:41:02.615] After reloading projects..
+Info 17   [16:41:02.615] Open files: 
+Info 17   [16:41:02.615] Host file extension mappings updated
+Info 18   [16:41:02.615] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "configure",
+      "request_seq": 0,
+      "success": true
+    }
+Perf 19   [16:41:02.616] 0::configure: async elapsed time (in milliseconds) 1.8409
+Info 20   [16:41:02.619] request:
+    {"sessionId":1741650062320,"seq":1,"type":"request","command":"getSupportedCodeFixes"}
+Perf 21   [16:41:02.619] 1::getSupportedCodeFixes: elapsed time (in milliseconds) 0.5125
+Info 22   [16:41:02.619] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "getSupportedCodeFixes",
+      "request_seq": 1,
+      "success": true,
+      "body": [
+        "2352",
+        "1375",
+        "2853",
+        "1431",
+        "2345",
+        "2322",
+        "2678",
+        "2356",
+        "2362",
+        "2363",
+        "2736",
+        "2365",
+        "2367",
+        "2801",
+        "2461",
+        "2495",
+        "2802",
+        "2549",
+        "2548",
+        "2488",
+        "2504",
+        "2339",
+        "2349",
+        "2351",
+        "2304",
+        "18004",
+        "2612",
+        "1329",
+        "1541",
+        "1542",
+        "7051",
+        "2412",
+        "2375",
+        "2379",
+        "80004",
+        "80002",
+        "80006",
+        "80001",
+        "2713",
+        "1205",
+        "1484",
+        "1485",
+        "80009",
+        "2690",
+        "2420",
+        "2720",
+        "2552",
+        "2663",
+        "2662",
+        "2503",
+        "2686",
+        "2693",
+        "1361",
+        "2581",
+        "2583",
+        "2584",
+        "2593",
+        "2311",
+        "2592",
+        "2582",
+        "2580",
+        "2591",
+        "2833",
+        "2874",
+        "2719",
+        "2530",
+        "2603",
+        "2344",
+        "4113",
+        "4112",
+        "4116",
+        "4114",
+        "4115",
+        "4119",
+        "4121",
+        "4120",
+        "4122",
+        "4111",
+        "2683",
+        "2459",
+        "5086",
+        "5087",
+        "2551",
+        "2568",
+        "2570",
+        "2724",
+        "4117",
+        "4123",
+        "2769",
+        "2355",
+        "2741",
+        "2739",
+        "2740",
+        "2348",
+        "2554",
+        "2307",
+        "7016",
+        "2875",
+        "2515",
+        "2654",
+        "2655",
+        "2653",
+        "2656",
+        "2650",
+        "17009",
+        "2377",
+        "17004",
+        "2845",
+        "1378",
+        "2854",
+        "1432",
+        "1312",
+        "2689",
+        "1451",
+        "1382",
+        "1381",
+        "8024",
+        "1272",
+        "6133",
+        "6196",
+        "6138",
+        "6192",
+        "6198",
+        "6199",
+        "6205",
+        "7027",
+        "7028",
+        "8020",
+        "17019",
+        "17020",
+        "2774",
+        "9007",
+        "9008",
+        "9009",
+        "9010",
+        "9011",
+        "9012",
+        "9013",
+        "9019",
+        "9038",
+        "9014",
+        "9020",
+        "9021",
+        "9016",
+        "9015",
+        "9018",
+        "9037",
+        "9017",
+        "9023",
+        "9025",
+        "9039",
+        "9035",
+        "1308",
+        "2852",
+        "1103",
+        "2610",
+        "2611",
+        "7034",
+        "7005",
+        "7006",
+        "7019",
+        "7033",
+        "7010",
+        "7032",
+        "7008",
+        "7046",
+        "7043",
+        "7044",
+        "7047",
+        "7048",
+        "7050",
+        "7049",
+        "7045",
+        "1064",
+        "1002",
+        "1003",
+        "1005",
+        "1006",
+        "1007",
+        "1009",
+        "1010",
+        "1011",
+        "1012",
+        "1013",
+        "1014",
+        "1015",
+        "1016",
+        "1017",
+        "1018",
+        "1019",
+        "1020",
+        "1021",
+        "1022",
+        "1024",
+        "1025",
+        "1028",
+        "1029",
+        "1030",
+        "1031",
+        "1034",
+        "1035",
+        "1036",
+        "1038",
+        "1039",
+        "1040",
+        "1042",
+        "1044",
+        "1046",
+        "1047",
+        "1048",
+        "1049",
+        "1051",
+        "1052",
+        "1053",
+        "1054",
+        "1055",
+        "1056",
+        "1058",
+        "1059",
+        "1060",
+        "1061",
+        "1062",
+        "1063",
+        "1065",
+        "1066",
+        "1068",
+        "1069",
+        "1070",
+        "1071",
+        "1079",
+        "1084",
+        "1089",
+        "1090",
+        "1091",
+        "1092",
+        "1093",
+        "1094",
+        "1095",
+        "1096",
+        "1097",
+        "1098",
+        "1099",
+        "1100",
+        "1101",
+        "1102",
+        "1104",
+        "1105",
+        "1106",
+        "1107",
+        "1108",
+        "1109",
+        "1110",
+        "1111",
+        "1113",
+        "1114",
+        "1115",
+        "1116",
+        "1117",
+        "1118",
+        "1119",
+        "1120",
+        "1121",
+        "1123",
+        "1124",
+        "1125",
+        "1126",
+        "1127",
+        "1128",
+        "1129",
+        "1130",
+        "1131",
+        "1132",
+        "1134",
+        "1135",
+        "1136",
+        "1137",
+        "1138",
+        "1139",
+        "1140",
+        "1141",
+        "1142",
+        "1144",
+        "1145",
+        "1146",
+        "1147",
+        "1148",
+        "1149",
+        "1155",
+        "1156",
+        "1160",
+        "1161",
+        "1162",
+        "1163",
+        "1164",
+        "1165",
+        "1166",
+        "1168",
+        "1169",
+        "1170",
+        "1171",
+        "1172",
+        "1173",
+        "1174",
+        "1175",
+        "1176",
+        "1177",
+        "1178",
+        "1179",
+        "1180",
+        "1181",
+        "1182",
+        "1183",
+        "1184",
+        "1185",
+        "1186",
+        "1187",
+        "1188",
+        "1189",
+        "1190",
+        "1191",
+        "1192",
+        "1193",
+        "1194",
+        "1195",
+        "1196",
+        "1197",
+        "1198",
+        "1199",
+        "1200",
+        "1202",
+        "1203",
+        "1206",
+        "1207",
+        "1209",
+        "1210",
+        "1211",
+        "1212",
+        "1213",
+        "1214",
+        "1215",
+        "1216",
+        "1218",
+        "1221",
+        "1222",
+        "1223",
+        "1224",
+        "1225",
+        "1226",
+        "1227",
+        "1228",
+        "1229",
+        "1230",
+        "1231",
+        "1232",
+        "1233",
+        "1234",
+        "1235",
+        "1236",
+        "1237",
+        "1238",
+        "1239",
+        "1240",
+        "1241",
+        "1242",
+        "1243",
+        "1244",
+        "1245",
+        "1246",
+        "1247",
+        "1248",
+        "1249",
+        "1250",
+        "1251",
+        "1252",
+        "1253",
+        "1254",
+        "1255",
+        "1257",
+        "1258",
+        "1259",
+        "1260",
+        "1261",
+        "1262",
+        "1263",
+        "1264",
+        "1265",
+        "1266",
+        "1267",
+        "1268",
+        "1269",
+        "1270",
+        "1271",
+        "1273",
+        "1274",
+        "1275",
+        "1276",
+        "1277",
+        "1278",
+        "1279",
+        "1280",
+        "1281",
+        "1282",
+        "1283",
+        "1284",
+        "1285",
+        "1286",
+        "1287",
+        "1288",
+        "1289",
+        "1290",
+        "1291",
+        "1292",
+        "1293",
+        "1300",
+        "1309",
+        "1313",
+        "1314",
+        "1315",
+        "1316",
+        "1317",
+        "1318",
+        "1319",
+        "1320",
+        "1321",
+        "1322",
+        "1323",
+        "1324",
+        "1325",
+        "1326",
+        "1327",
+        "1328",
+        "1330",
+        "1331",
+        "1332",
+        "1333",
+        "1334",
+        "1335",
+        "1337",
+        "1338",
+        "1339",
+        "1340",
+        "1341",
+        "1343",
+        "1344",
+        "1345",
+        "1346",
+        "1347",
+        "1348",
+        "1349",
+        "1351",
+        "1352",
+        "1353",
+        "1354",
+        "1355",
+        "1356",
+        "1357",
+        "1358",
+        "1359",
+        "1360",
+        "1362",
+        "1363",
+        "1368",
+        "1379",
+        "1380",
+        "1385",
+        "1386",
+        "1387",
+        "1388",
+        "1389",
+        "1390",
+        "1392",
+        "1433",
+        "1434",
+        "1435",
+        "1436",
+        "1437",
+        "1438",
+        "1439",
+        "1440",
+        "1441",
+        "1442",
+        "1443",
+        "1448",
+        "1453",
+        "1454",
+        "1455",
+        "1456",
+        "1463",
+        "1464",
+        "1470",
+        "1471",
+        "1472",
+        "1473",
+        "1474",
+        "1477",
+        "1478",
+        "1479",
+        "1486",
+        "1487",
+        "1488",
+        "1489",
+        "1490",
+        "1491",
+        "1492",
+        "1493",
+        "1494",
+        "1495",
+        "1496",
+        "1497",
+        "1498",
+        "1499",
+        "1500",
+        "1501",
+        "1502",
+        "1503",
+        "1504",
+        "1505",
+        "1506",
+        "1507",
+        "1508",
+        "1509",
+        "1510",
+        "1511",
+        "1512",
+        "1513",
+        "1514",
+        "1515",
+        "1516",
+        "1517",
+        "1518",
+        "1519",
+        "1520",
+        "1521",
+        "1522",
+        "1523",
+        "1524",
+        "1525",
+        "1526",
+        "1527",
+        "1528",
+        "1529",
+        "1530",
+        "1531",
+        "1532",
+        "1533",
+        "1534",
+        "1535",
+        "1536",
+        "1537",
+        "1538",
+        "1539",
+        "1543",
+        "1544",
+        "2200",
+        "2201",
+        "2202",
+        "2203",
+        "2204",
+        "2205",
+        "2206",
+        "2207",
+        "2208",
+        "2209",
+        "2210",
+        "2300",
+        "2301",
+        "2302",
+        "2303",
+        "2305",
+        "2306",
+        "2308",
+        "2309",
+        "2310",
+        "2312",
+        "2313",
+        "2314",
+        "2315",
+        "2316",
+        "2317",
+        "2318",
+        "2319",
+        "2320",
+        "2321",
+        "2323",
+        "2324",
+        "2325",
+        "2326",
+        "2327",
+        "2328",
+        "2329",
+        "2330",
+        "2331",
+        "2332",
+        "2334",
+        "2335",
+        "2336",
+        "2337",
+        "2338",
+        "2340",
+        "2341",
+        "2343",
+        "2347",
+        "2350",
+        "2353",
+        "2354",
+        "2357",
+        "2358",
+        "2359",
+        "2364",
+        "2366",
+        "2368",
+        "2369",
+        "2370",
+        "2371",
+        "2372",
+        "2373",
+        "2374",
+        "2376",
+        "2378",
+        "2383",
+        "2384",
+        "2385",
+        "2386",
+        "2387",
+        "2388",
+        "2389",
+        "2390",
+        "2391",
+        "2392",
+        "2393",
+        "2394",
+        "2395",
+        "2396",
+        "2397",
+        "2398",
+        "2399",
+        "2400",
+        "2401",
+        "2402",
+        "2403",
+        "2404",
+        "2405",
+        "2406",
+        "2407",
+        "2408",
+        "2409",
+        "2410",
+        "2411",
+        "2413",
+        "2414",
+        "2415",
+        "2416",
+        "2417",
+        "2418",
+        "2419",
+        "2422",
+        "2423",
+        "2425",
+        "2426",
+        "2427",
+        "2428",
+        "2430",
+        "2431",
+        "2432",
+        "2433",
+        "2434",
+        "2435",
+        "2436",
+        "2437",
+        "2438",
+        "2439",
+        "2440",
+        "2441",
+        "2442",
+        "2443",
+        "2444",
+        "2445",
+        "2446",
+        "2447",
+        "2448",
+        "2449",
+        "2450",
+        "2451",
+        "2452",
+        "2454",
+        "2456",
+        "2457",
+        "2458",
+        "2460",
+        "2462",
+        "2463",
+        "2464",
+        "2465",
+        "2466",
+        "2467",
+        "2468",
+        "2469",
+        "2472",
+        "2473",
+        "2474",
+        "2475",
+        "2476",
+        "2477",
+        "2478",
+        "2480",
+        "2481",
+        "2483",
+        "2484",
+        "2487",
+        "2489",
+        "2490",
+        "2491",
+        "2492",
+        "2493",
+        "2494",
+        "2496",
+        "2497",
+        "2498",
+        "2499",
+        "2500",
+        "2501",
+        "2502",
+        "2505",
+        "2506",
+        "2507",
+        "2508",
+        "2509",
+        "2510",
+        "2511",
+        "2512",
+        "2513",
+        "2514",
+        "2516",
+        "2517",
+        "2518",
+        "2519",
+        "2520",
+        "2522",
+        "2523",
+        "2524",
+        "2526",
+        "2527",
+        "2528",
+        "2529",
+        "2531",
+        "2532",
+        "2533",
+        "2534",
+        "2536",
+        "2537",
+        "2538",
+        "2539",
+        "2540",
+        "2542",
+        "2543",
+        "2544",
+        "2545",
+        "2547",
+        "2550",
+        "2553",
+        "2555",
+        "2556",
+        "2558",
+        "2559",
+        "2560",
+        "2561",
+        "2562",
+        "2563",
+        "2564",
+        "2565",
+        "2566",
+        "2567",
+        "2571",
+        "2574",
+        "2575",
+        "2576",
+        "2577",
+        "2578",
+        "2585",
+        "2588",
+        "2589",
+        "2590",
+        "2594",
+        "2595",
+        "2596",
+        "2597",
+        "2598",
+        "2602",
+        "2604",
+        "2606",
+        "2607",
+        "2608",
+        "2609",
+        "2613",
+        "2614",
+        "2615",
+        "2616",
+        "2617",
+        "2618",
+        "2619",
+        "2620",
+        "2621",
+        "2623",
+        "2624",
+        "2625",
+        "2626",
+        "2627",
+        "2628",
+        "2629",
+        "2630",
+        "2631",
+        "2632",
+        "2633",
+        "2634",
+        "2635",
+        "2636",
+        "2637",
+        "2638",
+        "2639",
+        "2649",
+        "2651",
+        "2652",
+        "2657",
+        "2658",
+        "2659",
+        "2660",
+        "2661",
+        "2664",
+        "2665",
+        "2666",
+        "2667",
+        "2668",
+        "2669",
+        "2670",
+        "2671",
+        "2672",
+        "2673",
+        "2674",
+        "2675",
+        "2676",
+        "2677",
+        "2679",
+        "2680",
+        "2681",
+        "2684",
+        "2685",
+        "2687",
+        "2688",
+        "2692",
+        "2694",
+        "2695",
+        "2696",
+        "2697",
+        "2698",
+        "2699",
+        "2700",
+        "2701",
+        "2702",
+        "2703",
+        "2704",
+        "2705",
+        "2706",
+        "2707",
+        "2708",
+        "2709",
+        "2710",
+        "2711",
+        "2712",
+        "2714",
+        "2715",
+        "2716",
+        "2717",
+        "2718",
+        "2721",
+        "2722",
+        "2723",
+        "2725",
+        "2726",
+        "2727",
+        "2729",
+        "2730",
+        "2731",
+        "2732",
+        "2733",
+        "2734",
+        "2735",
+        "2737",
+        "2742",
+        "2743",
+        "2744",
+        "2745",
+        "2746",
+        "2747",
+        "2748",
+        "2749",
+        "2750",
+        "2751",
+        "2752",
+        "2753",
+        "2754",
+        "2755",
+        "2756",
+        "2757",
+        "2758",
+        "2759",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2764",
+        "2765",
+        "2766",
+        "2767",
+        "2768",
+        "2770",
+        "2771",
+        "2772",
+        "2773",
+        "2775",
+        "2776",
+        "2777",
+        "2778",
+        "2779",
+        "2780",
+        "2781",
+        "2783",
+        "2784",
+        "2785",
+        "2786",
+        "2787",
+        "2788",
+        "2789",
+        "2790",
+        "2791",
+        "2792",
+        "2793",
+        "2794",
+        "2795",
+        "2796",
+        "2797",
+        "2798",
+        "2799",
+        "2800",
+        "2803",
+        "2804",
+        "2806",
+        "2807",
+        "2808",
+        "2809",
+        "2810",
+        "2811",
+        "2812",
+        "2813",
+        "2814",
+        "2815",
+        "2816",
+        "2817",
+        "2818",
+        "2819",
+        "2820",
+        "2821",
+        "2822",
+        "2823",
+        "2834",
+        "2835",
+        "2836",
+        "2837",
+        "2838",
+        "2839",
+        "2840",
+        "2842",
+        "2843",
+        "2844",
+        "2846",
+        "2848",
+        "2849",
+        "2850",
+        "2851",
+        "2855",
+        "2856",
+        "2857",
+        "2858",
+        "2859",
+        "2860",
+        "2861",
+        "2862",
+        "2863",
+        "2864",
+        "2865",
+        "2866",
+        "2867",
+        "2868",
+        "2869",
+        "2870",
+        "2871",
+        "2872",
+        "2873",
+        "2876",
+        "2877",
+        "2878",
+        "2879",
+        "4000",
+        "4002",
+        "4004",
+        "4006",
+        "4008",
+        "4010",
+        "4012",
+        "4014",
+        "4016",
+        "4019",
+        "4020",
+        "4021",
+        "4022",
+        "4023",
+        "4024",
+        "4025",
+        "4026",
+        "4027",
+        "4028",
+        "4029",
+        "4030",
+        "4031",
+        "4032",
+        "4033",
+        "4034",
+        "4035",
+        "4036",
+        "4037",
+        "4038",
+        "4039",
+        "4040",
+        "4041",
+        "4042",
+        "4043",
+        "4044",
+        "4045",
+        "4046",
+        "4047",
+        "4048",
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4053",
+        "4054",
+        "4055",
+        "4056",
+        "4057",
+        "4058",
+        "4059",
+        "4060",
+        "4061",
+        "4062",
+        "4063",
+        "4064",
+        "4065",
+        "4066",
+        "4067",
+        "4068",
+        "4069",
+        "4070",
+        "4071",
+        "4072",
+        "4073",
+        "4074",
+        "4075",
+        "4076",
+        "4077",
+        "4078",
+        "4081",
+        "4082",
+        "4083",
+        "4084",
+        "4085",
+        "4091",
+        "4092",
+        "4094",
+        "4095",
+        "4096",
+        "4097",
+        "4098",
+        "4099",
+        "4100",
+        "4101",
+        "4102",
+        "4103",
+        "4104",
+        "4105",
+        "4106",
+        "4107",
+        "4108",
+        "4109",
+        "4110",
+        "4118",
+        "4124",
+        "4125",
+        "4126",
+        "5001",
+        "5009",
+        "5010",
+        "5012",
+        "5023",
+        "5024",
+        "5025",
+        "5033",
+        "5042",
+        "5047",
+        "5051",
+        "5052",
+        "5053",
+        "5054",
+        "5055",
+        "5056",
+        "5057",
+        "5058",
+        "5059",
+        "5061",
+        "5062",
+        "5063",
+        "5064",
+        "5065",
+        "5066",
+        "5067",
+        "5068",
+        "5069",
+        "5070",
+        "5071",
+        "5072",
+        "5073",
+        "5074",
+        "5075",
+        "5076",
+        "5077",
+        "5078",
+        "5079",
+        "5080",
+        "5081",
+        "5082",
+        "5083",
+        "5085",
+        "5088",
+        "5089",
+        "5090",
+        "5091",
+        "5092",
+        "5093",
+        "5094",
+        "5095",
+        "5096",
+        "5097",
+        "5098",
+        "5101",
+        "5102",
+        "5103",
+        "5104",
+        "5105",
+        "5107",
+        "5108",
+        "5109",
+        "5110",
+        "6044",
+        "6045",
+        "6046",
+        "6048",
+        "6050",
+        "6051",
+        "6053",
+        "6054",
+        "6059",
+        "6064",
+        "6082",
+        "6114",
+        "6131",
+        "6137",
+        "6140",
+        "6142",
+        "6188",
+        "6189",
+        "6200",
+        "6202",
+        "6229",
+        "6230",
+        "6231",
+        "6232",
+        "6233",
+        "6234",
+        "6236",
+        "6238",
+        "6258",
+        "6263",
+        "6266",
+        "6304",
+        "6305",
+        "6306",
+        "6307",
+        "6310",
+        "6369",
+        "6370",
+        "6377",
+        "6379",
+        "6504",
+        "6807",
+        "6931",
+        "7009",
+        "7011",
+        "7012",
+        "7013",
+        "7014",
+        "7015",
+        "7017",
+        "7018",
+        "7020",
+        "7022",
+        "7023",
+        "7024",
+        "7025",
+        "7026",
+        "7029",
+        "7030",
+        "7031",
+        "7035",
+        "7036",
+        "7039",
+        "7040",
+        "7041",
+        "7042",
+        "7052",
+        "7053",
+        "7054",
+        "7055",
+        "7056",
+        "7057",
+        "7058",
+        "7059",
+        "7060",
+        "7061",
+        "8000",
+        "8001",
+        "8002",
+        "8003",
+        "8004",
+        "8005",
+        "8006",
+        "8008",
+        "8009",
+        "8010",
+        "8011",
+        "8012",
+        "8013",
+        "8016",
+        "8017",
+        "8021",
+        "8022",
+        "8023",
+        "8025",
+        "8026",
+        "8027",
+        "8028",
+        "8029",
+        "8030",
+        "8031",
+        "8032",
+        "8033",
+        "8034",
+        "8035",
+        "8036",
+        "8037",
+        "8038",
+        "8039",
+        "9005",
+        "9006",
+        "9022",
+        "9026",
+        "9027",
+        "9028",
+        "9029",
+        "9030",
+        "9031",
+        "9032",
+        "9033",
+        "9034",
+        "9036",
+        "17000",
+        "17001",
+        "17002",
+        "17005",
+        "17006",
+        "17007",
+        "17008",
+        "17010",
+        "17011",
+        "17012",
+        "17013",
+        "17014",
+        "17015",
+        "17016",
+        "17017",
+        "17018",
+        "17021",
+        "18000",
+        "18002",
+        "18003",
+        "18006",
+        "18007",
+        "18009",
+        "18010",
+        "18011",
+        "18012",
+        "18013",
+        "18014",
+        "18015",
+        "18016",
+        "18017",
+        "18018",
+        "18019",
+        "18024",
+        "18026",
+        "18027",
+        "18028",
+        "18029",
+        "18030",
+        "18031",
+        "18032",
+        "18033",
+        "18035",
+        "18036",
+        "18037",
+        "18038",
+        "18039",
+        "18041",
+        "18042",
+        "18043",
+        "18045",
+        "18046",
+        "18047",
+        "18048",
+        "18049",
+        "18050",
+        "18051",
+        "18053",
+        "18054",
+        "18055",
+        "18056",
+        "18057",
+        "80005",
+        "80003",
+        "80008",
+        "80007"
+      ]
+    }
+Info 23   [16:41:02.620] request:
+    {"sessionId":1741650062320,"seq":2,"type":"request","command":"open","arguments":{"file":"/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts"}}
+Info 24   [16:41:02.621] getConfigFileNameForFile:: File: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts ProjectRootPath: undefined:: Result: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json
+Info 25   [16:41:02.622] Creating ConfiguredProject: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json, currentDirectory: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript
+Info 26   [16:41:02.623] FileWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json 2000 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Config file
+Info 27   [16:41:02.632] Config: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json : {
+ "rootNames": [
+  "/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts"
+ ],
+ "options": {
+  "configFilePath": "/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json"
+ }
+}
+Info 28   [16:41:02.633] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "projectLoadingStart",
+      "body": {
+        "projectName": "/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json",
+        "reason": "Creating possible configured project for /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts to open"
+      }
+    }
+Info 29   [16:41:02.635] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript 1 undefined Config: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Wild card directory
+Info 30   [16:41:02.638] Elapsed:: 3.192596999999978ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript 1 undefined Config: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Wild card directory
+Info 31   [16:41:02.638] Loading global plugin tsc-ide-plugin
+Info 32   [16:41:02.639] Enabling plugin tsc-ide-plugin from candidate paths: /p7/LiveProjects/resume2025,/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript,/p7/LiveProjects/resume2025/node_modules/typescript/lib/typescript.js/../../..
+Info 33   [16:41:02.639] Loading tsc-ide-plugin from /p7/LiveProjects/resume2025 (resolved to /p7/LiveProjects/resume2025/node_modules)
+Info 34   [16:41:02.658] Loading tsc-ide-plugin from /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript (resolved to /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules)
+Info 35   [16:41:02.665] Called handler processing
+Info 36   [16:41:02.665] IDE specific commands are successfully added.
+Info 37   [16:41:02.666] Plugin validation succeeded
+Info 38   [16:41:02.667] Starting updateGraphWorker: Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json
+Info 39   [16:41:02.679] DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 40   [16:41:02.718] Elapsed:: 38.51010299999996ms DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 41   [16:41:02.722] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 42   [16:41:02.722] Elapsed:: 0.03178700000000845ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 43   [16:41:02.722] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 44   [16:41:02.723] Elapsed:: 1.1392209999999636ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 45   [16:41:02.725] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 46   [16:41:02.725] Elapsed:: 0.18441500000000133ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 47   [16:41:02.725] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 48   [16:41:02.725] Elapsed:: 0.07205599999997503ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 49   [16:41:02.725] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 50   [16:41:02.726] Elapsed:: 0.050038000000029115ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 51   [16:41:02.726] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 52   [16:41:02.726] Elapsed:: 0.06969099999997752ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 53   [16:41:03.119] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/typescript/lib/package.json 2000 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: File location affecting resolution
+Info 54   [16:41:03.119] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/typescript/package.json 2000 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: File location affecting resolution
+Info 55   [16:41:03.120] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 56   [16:41:03.120] Elapsed:: 0.190845999999965ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 57   [16:41:03.120] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 58   [16:41:03.120] Elapsed:: 0.08348799999998846ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 59   [16:41:03.120] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 60   [16:41:03.120] Elapsed:: 0.11356999999998152ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 61   [16:41:03.120] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 62   [16:41:03.120] Elapsed:: 0.0649470000000747ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 63   [16:41:03.120] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 64   [16:41:03.120] Elapsed:: 0.046223000000054526ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 65   [16:41:03.120] DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 66   [16:41:03.120] Elapsed:: 0.03840200000001914ms DirectoryWatcher:: Added:: WatchInfo: /home/lance/Applications/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 67   [16:41:03.121] Finishing updateGraphWorker: Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json projectStateVersion: 1 projectProgramVersion: 0 structureChanged: true structureIsReused:: Not Elapsed: 453.450599ms
+Info 68   [16:41:03.121] Project '/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json' (Configured)
+Info 69   [16:41:03.122] 	Files (8)
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.dom.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.scripthost.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+	/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts
+
+
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts
+	  Default library for target 'es5'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts
+	  Library referenced via 'es5' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.dom.d.ts
+	  Library referenced via 'dom' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	  Library referenced via 'webworker.importscripts' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.scripthost.d.ts
+	  Library referenced via 'scripthost' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.d.ts
+	  Library referenced via 'decorators' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+	  Library referenced via 'decorators.legacy' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts'
+	init.ts
+	  Matched by default include pattern '**/*'
+
+Info 70   [16:41:03.122] -----------------------------------------------
+Info 71   [16:41:03.124] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "projectLoadingFinish",
+      "body": {
+        "projectName": "/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json"
+      }
+    }
+Info 72   [16:41:03.125] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "telemetry",
+      "body": {
+        "telemetryEventName": "projectInfo",
+        "payload": {
+          "projectId": "a0f99d94ffa3806bb163d6c8bacf6d48e0db6f53e3728e33db37542fc912049b",
+          "fileStats": {
+            "js": 0,
+            "jsSize": 0,
+            "jsx": 0,
+            "jsxSize": 0,
+            "ts": 1,
+            "tsSize": 90,
+            "tsx": 0,
+            "tsxSize": 0,
+            "dts": 7,
+            "dtsSize": 1589206,
+            "deferred": 0,
+            "deferredSize": 0
+          },
+          "compilerOptions": {},
+          "typeAcquisition": {
+            "enable": false,
+            "include": false,
+            "exclude": false
+          },
+          "extends": false,
+          "files": false,
+          "include": false,
+          "exclude": false,
+          "compileOnSave": false,
+          "configFileName": "tsconfig.json",
+          "projectType": "configured",
+          "languageServiceEnabled": true,
+          "version": "5.7.3"
+        }
+      }
+    }
+Info 73   [16:41:03.125] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "configFileDiag",
+      "body": {
+        "triggerFile": "/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts",
+        "configFile": "/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json",
+        "diagnostics": []
+      }
+    }
+Info 74   [16:41:03.125] Project '/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json' (Configured)
+Info 74   [16:41:03.125] 	Files (8)
+
+Info 74   [16:41:03.125] -----------------------------------------------
+Info 74   [16:41:03.126] Open files: 
+Info 74   [16:41:03.126] 	FileName: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts ProjectRootPath: undefined
+Info 74   [16:41:03.126] 		Projects: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json
+Info 74   [16:41:03.126] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "open",
+      "request_seq": 2,
+      "success": true,
+      "performanceData": {
+        "updateGraphDurationMs": 453.450599
+      }
+    }
+Perf 75   [16:41:03.126] 2::open: async elapsed time (in milliseconds) 505.6234
+Info 76   [16:41:03.126] request:
+    {"sessionId":1741650062320,"seq":3,"type":"request","command":"close","arguments":{"file":"/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts"}}
+Info 77   [16:41:03.126] FileWatcher:: Added:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts 500 undefined WatchType: Closed Script info
+Info 78   [16:41:03.126] Project '/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json' (Configured)
+Info 78   [16:41:03.126] 	Files (8)
+
+Info 78   [16:41:03.126] -----------------------------------------------
+Info 78   [16:41:03.126] Open files: 
+Info 78   [16:41:03.126] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "close",
+      "request_seq": 3,
+      "success": true
+    }
+Perf 79   [16:41:03.126] 3::close: async elapsed time (in milliseconds) 0.4872
+Info 80   [16:41:03.127] request:
+    {"sessionId":1741650062320,"seq":4,"type":"request","command":"compilerOptionsForInferredProjects","arguments":{"options":{}}}
+Perf 81   [16:41:03.127] 4::compilerOptionsForInferredProjects: elapsed time (in milliseconds) 0.2466
+Info 82   [16:41:03.127] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "compilerOptionsForInferredProjects",
+      "request_seq": 4,
+      "success": true,
+      "body": true
+    }
+Info 83   [16:41:03.127] request:
+    {"sessionId":1741650062320,"seq":5,"type":"request","command":"ideOpenExternalProject","arguments":{"projectFileName":"/p7/LiveProjects/resume2025/tsconfig.app.json","rootFiles":[{"fileName":"/p7/LiveProjects/resume2025/tsconfig.app.json"}],"typeAcquisition":{"enable":false}}}
+Info 84   [16:41:03.127] Creating ConfiguredProject: /p7/LiveProjects/resume2025/tsconfig.app.json, currentDirectory: /p7/LiveProjects/resume2025
+Info 85   [16:41:03.127] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/tsconfig.app.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Config file
+Info 86   [16:41:03.127] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "projectLoadingStart",
+      "body": {
+        "projectName": "/p7/LiveProjects/resume2025/tsconfig.app.json",
+        "reason": "Creating configured project in external project: /p7/LiveProjects/resume2025/tsconfig.app.json"
+      }
+    }
+Info 87   [16:41:03.129] Config: /p7/LiveProjects/resume2025/tsconfig.app.json : {
+ "rootNames": [
+  "/p7/LiveProjects/resume2025/src/App.tsx",
+  "/p7/LiveProjects/resume2025/src/main.tsx",
+  "/p7/LiveProjects/resume2025/src/vite-env.d.ts"
+ ],
+ "options": {
+  "tsBuildInfoFile": "/p7/LiveProjects/resume2025/node_modules/.tmp/tsconfig.app.tsbuildinfo",
+  "target": 7,
+  "useDefineForClassFields": true,
+  "lib": [
+   "lib.es2020.d.ts",
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts"
+  ],
+  "module": 99,
+  "skipLibCheck": true,
+  "moduleResolution": 100,
+  "allowImportingTsExtensions": true,
+  "isolatedModules": true,
+  "moduleDetection": 3,
+  "noEmit": true,
+  "jsx": 4,
+  "strict": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noFallthroughCasesInSwitch": true,
+  "noUncheckedSideEffectImports": true,
+  "configFilePath": "/p7/LiveProjects/resume2025/tsconfig.app.json"
+ }
+}
+Info 88   [16:41:03.129] DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src 1 undefined Config: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Wild card directory
+Info 89   [16:41:03.129] Elapsed:: 0.06517100000007758ms DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src 1 undefined Config: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Wild card directory
+Info 90   [16:41:03.129] Loading global plugin tsc-ide-plugin
+Info 91   [16:41:03.129] Enabling plugin tsc-ide-plugin from candidate paths: /p7/LiveProjects/resume2025,/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript,/p7/LiveProjects/resume2025/node_modules/typescript/lib/typescript.js/../../..
+Info 92   [16:41:03.130] Loading tsc-ide-plugin from /p7/LiveProjects/resume2025 (resolved to /p7/LiveProjects/resume2025/node_modules)
+Info 93   [16:41:03.130] Loading tsc-ide-plugin from /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript (resolved to /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules)
+Info 94   [16:41:03.130] Plugin validation succeeded
+Info 95   [16:41:03.130] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 96   [16:41:03.130] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/main.tsx 500 undefined WatchType: Closed Script info
+Info 97   [16:41:03.130] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/vite-env.d.ts 500 undefined WatchType: Closed Script info
+Info 98   [16:41:03.130] Starting updateGraphWorker: Project: /p7/LiveProjects/resume2025/tsconfig.app.json
+Info 99   [16:41:03.141] DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src 0 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 100  [16:41:03.141] Elapsed:: 0.01939900000002126ms DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src 0 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 101  [16:41:03.141] DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/App.css 0 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 102  [16:41:03.141] Elapsed:: 0.03782200000000557ms DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/App.css 0 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 103  [16:41:03.143] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types/react/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 104  [16:41:03.216] DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/index.css 0 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 105  [16:41:03.216] Elapsed:: 0.05738999999994121ms DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/index.css 0 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 106  [16:41:03.222] DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules 1 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 107  [16:41:03.222] Elapsed:: 0.008952000000022053ms DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules 1 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 108  [16:41:03.222] DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/node_modules 1 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 109  [16:41:03.222] Elapsed:: 0.10051199999998062ms DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/node_modules 1 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 110  [16:41:03.223] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/vite/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 111  [16:41:03.223] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/jiti/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 112  [16:41:03.223] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/lightningcss/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 113  [16:41:03.223] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/yaml/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 114  [16:41:03.228] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types/babel__core/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 115  [16:41:03.228] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types/babel__generator/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 116  [16:41:03.228] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types/babel__template/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 117  [16:41:03.228] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types/babel__traverse/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 118  [16:41:03.228] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types/estree/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 119  [16:41:03.229] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types/json-schema/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 120  [16:41:03.229] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types/react-dom/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 121  [16:41:03.491] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 122  [16:41:03.491] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/react/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 123  [16:41:03.491] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/csstype/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 124  [16:41:03.492] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/react-dom/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 125  [16:41:03.492] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@babel/generator/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 126  [16:41:03.492] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@babel/parser/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 127  [16:41:03.492] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@babel/template/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 128  [16:41:03.493] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@babel/traverse/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 129  [16:41:03.493] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@babel/types/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 130  [16:41:03.493] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/typescript/lib/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 131  [16:41:03.493] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/typescript/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 132  [16:41:03.493] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/vite/types/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 133  [16:41:03.493] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@babel/types/lib/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 134  [16:41:03.493] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@babel/parser/typings/package.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: File location affecting resolution
+Info 135  [16:41:03.494] DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types 1 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Type roots
+Info 136  [16:41:03.494] Elapsed:: 0.0065509999999449064ms DirectoryWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/@types 1 undefined Project: /p7/LiveProjects/resume2025/tsconfig.app.json WatchType: Type roots
+Info 137  [16:41:03.494] Finishing updateGraphWorker: Project: /p7/LiveProjects/resume2025/tsconfig.app.json projectStateVersion: 1 projectProgramVersion: 0 structureChanged: true structureIsReused:: Not Elapsed: 363.2378940000001ms
+Info 138  [16:41:03.494] Project '/p7/LiveProjects/resume2025/tsconfig.app.json' (Configured)
+Info 139  [16:41:03.495] 	Files (70)
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2016.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2017.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2018.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2019.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.dom.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.dom.iterable.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2016.intl.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2017.date.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2019.array.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2019.object.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2019.string.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2019.symbol.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2019.intl.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.date.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.promise.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.string.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.intl.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es2020.number.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/react/global.d.ts
+	/p7/LiveProjects/resume2025/node_modules/csstype/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/react/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/react/jsx-runtime.d.ts
+	/p7/LiveProjects/resume2025/src/App.tsx
+	/p7/LiveProjects/resume2025/node_modules/@types/react-dom/client.d.ts
+	/p7/LiveProjects/resume2025/src/main.tsx
+	/p7/LiveProjects/resume2025/node_modules/vite/types/hmrPayload.d.ts
+	/p7/LiveProjects/resume2025/node_modules/vite/types/customEvent.d.ts
+	/p7/LiveProjects/resume2025/node_modules/vite/types/hot.d.ts
+	/p7/LiveProjects/resume2025/node_modules/vite/types/importGlob.d.ts
+	/p7/LiveProjects/resume2025/node_modules/vite/types/importMeta.d.ts
+	/p7/LiveProjects/resume2025/node_modules/vite/client.d.ts
+	/p7/LiveProjects/resume2025/src/vite-env.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@babel/types/lib/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/babel__generator/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/babel__template/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/babel__traverse/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/babel__core/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/estree/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/json-schema/index.d.ts
+	/p7/LiveProjects/resume2025/node_modules/@types/react-dom/index.d.ts
+
+
+	node_modules/typescript/lib/lib.es5.d.ts
+	  Library referenced via 'es5' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	node_modules/typescript/lib/lib.es2015.d.ts
+	  Library referenced via 'es2015' from file 'node_modules/typescript/lib/lib.es2016.d.ts'
+	node_modules/typescript/lib/lib.es2016.d.ts
+	  Library referenced via 'es2016' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+	node_modules/typescript/lib/lib.es2017.d.ts
+	  Library referenced via 'es2017' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+	node_modules/typescript/lib/lib.es2018.d.ts
+	  Library referenced via 'es2018' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+	node_modules/typescript/lib/lib.es2019.d.ts
+	  Library referenced via 'es2019' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	node_modules/typescript/lib/lib.es2020.d.ts
+	  Library 'lib.es2020.d.ts' specified in compilerOptions
+	node_modules/typescript/lib/lib.dom.d.ts
+	  Library 'lib.dom.d.ts' specified in compilerOptions
+	node_modules/typescript/lib/lib.dom.iterable.d.ts
+	  Library 'lib.dom.iterable.d.ts' specified in compilerOptions
+	node_modules/typescript/lib/lib.es2015.core.d.ts
+	  Library referenced via 'es2015.core' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	node_modules/typescript/lib/lib.es2015.collection.d.ts
+	  Library referenced via 'es2015.collection' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	node_modules/typescript/lib/lib.es2015.generator.d.ts
+	  Library referenced via 'es2015.generator' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2015.generator.d.ts'
+	  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2018.asynciterable.d.ts'
+	  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2019.object.d.ts'
+	  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2020.string.d.ts'
+	  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts'
+	node_modules/typescript/lib/lib.es2015.promise.d.ts
+	  Library referenced via 'es2015.promise' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	  Library referenced via 'es2015.proxy' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	  Library referenced via 'es2015.reflect' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.iterable.d.ts'
+	  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts'
+	  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts'
+	  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2018.asynciterable.d.ts'
+	  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts'
+	node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	  Library referenced via 'es2015.symbol.wellknown' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+	  Library referenced via 'es2015.symbol.wellknown' from file 'node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts'
+	node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	  Library referenced via 'es2016.array.include' from file 'node_modules/typescript/lib/lib.es2016.d.ts'
+	node_modules/typescript/lib/lib.es2016.intl.d.ts
+	  Library referenced via 'es2016.intl' from file 'node_modules/typescript/lib/lib.es2016.d.ts'
+	node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts
+	  Library referenced via 'es2017.arraybuffer' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+	node_modules/typescript/lib/lib.es2017.date.d.ts
+	  Library referenced via 'es2017.date' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+	node_modules/typescript/lib/lib.es2017.object.d.ts
+	  Library referenced via 'es2017.object' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+	node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	  Library referenced via 'es2017.sharedmemory' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+	node_modules/typescript/lib/lib.es2017.string.d.ts
+	  Library referenced via 'es2017.string' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+	node_modules/typescript/lib/lib.es2017.intl.d.ts
+	  Library referenced via 'es2017.intl' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+	node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	  Library referenced via 'es2017.typedarrays' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+	node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	  Library referenced via 'es2018.asyncgenerator' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+	node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	  Library referenced via 'es2018.asynciterable' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+	  Library referenced via 'es2018.asynciterable' from file 'node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts'
+	node_modules/typescript/lib/lib.es2018.intl.d.ts
+	  Library referenced via 'es2018.intl' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+	  Library referenced via 'es2018.intl' from file 'node_modules/typescript/lib/lib.es2020.intl.d.ts'
+	node_modules/typescript/lib/lib.es2018.promise.d.ts
+	  Library referenced via 'es2018.promise' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+	node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	  Library referenced via 'es2018.regexp' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+	node_modules/typescript/lib/lib.es2019.array.d.ts
+	  Library referenced via 'es2019.array' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+	node_modules/typescript/lib/lib.es2019.object.d.ts
+	  Library referenced via 'es2019.object' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+	node_modules/typescript/lib/lib.es2019.string.d.ts
+	  Library referenced via 'es2019.string' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+	node_modules/typescript/lib/lib.es2019.symbol.d.ts
+	  Library referenced via 'es2019.symbol' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+	node_modules/typescript/lib/lib.es2019.intl.d.ts
+	  Library referenced via 'es2019.intl' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+	node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	  Library referenced via 'es2020.bigint' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	  Library referenced via 'es2020.bigint' from file 'node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts'
+	node_modules/typescript/lib/lib.es2020.date.d.ts
+	  Library referenced via 'es2020.date' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	node_modules/typescript/lib/lib.es2020.promise.d.ts
+	  Library referenced via 'es2020.promise' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts
+	  Library referenced via 'es2020.sharedmemory' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	node_modules/typescript/lib/lib.es2020.string.d.ts
+	  Library referenced via 'es2020.string' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts
+	  Library referenced via 'es2020.symbol.wellknown' from file 'node_modules/typescript/lib/lib.es2020.string.d.ts'
+	  Library referenced via 'es2020.symbol.wellknown' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	node_modules/typescript/lib/lib.es2020.intl.d.ts
+	  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.bigint.d.ts'
+	  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.date.d.ts'
+	  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.number.d.ts'
+	  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.string.d.ts'
+	  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	node_modules/typescript/lib/lib.es2020.number.d.ts
+	  Library referenced via 'es2020.number' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+	node_modules/typescript/lib/lib.decorators.d.ts
+	  Library referenced via 'decorators' from file 'node_modules/typescript/lib/lib.es5.d.ts'
+	node_modules/typescript/lib/lib.decorators.legacy.d.ts
+	  Library referenced via 'decorators.legacy' from file 'node_modules/typescript/lib/lib.es5.d.ts'
+	node_modules/@types/react/global.d.ts
+	  Referenced via 'global.d.ts' from file 'node_modules/@types/react/index.d.ts'
+	node_modules/csstype/index.d.ts
+	  Imported via "csstype" from file 'node_modules/@types/react/index.d.ts' with packageId 'csstype/index.d.ts@3.1.3'
+	node_modules/@types/react/index.d.ts
+	  Imported via "./" from file 'node_modules/@types/react/jsx-runtime.d.ts' with packageId '@types/react/ndex.d.ts@19.0.10'
+	  Imported via "./" from file 'node_modules/@types/react/jsx-runtime.d.ts' with packageId '@types/react/ndex.d.ts@19.0.10'
+	  Imported via 'react' from file 'src/main.tsx' with packageId '@types/react/index.d.ts@19.0.10'
+	  Imported via "react" from file 'node_modules/@types/react-dom/client.d.ts' with packageId '@types/react/index.d.ts@19.0.10'
+	  Entry point for implicit type library 'react' with packageId '@types/react/index.d.ts@19.0.10'
+	  Imported via "react" from file 'node_modules/@types/react-dom/index.d.ts' with packageId '@types/react/index.d.ts@19.0.10'
+	node_modules/@types/react/jsx-runtime.d.ts
+	  Imported via "react/jsx-runtime" from file 'src/App.tsx' with packageId '@types/react/jsx-runtime.d.ts@19.0.10' to import 'jsx' and 'jsxs' factory functions
+	  Imported via "react/jsx-runtime" from file 'src/main.tsx' with packageId '@types/react/jsx-runtime.d.ts@19.0.10' to import 'jsx' and 'jsxs' factory functions
+	src/App.tsx
+	  Matched by include pattern 'src' in 'tsconfig.app.json'
+	  Imported via './App.tsx' from file 'src/main.tsx'
+	node_modules/@types/react-dom/client.d.ts
+	  Imported via 'react-dom/client' from file 'src/main.tsx' with packageId '@types/react-dom/client.d.ts@19.0.4+@types/react@19.0.10'
+	src/main.tsx
+	  Matched by include pattern 'src' in 'tsconfig.app.json'
+	node_modules/vite/types/hmrPayload.d.ts
+	  Imported via './hmrPayload' from file 'node_modules/vite/types/customEvent.d.ts' with packageId 'vite/types/hmrPayload.d.ts@6.2.1+jiti@2.4.2+lightningcss@1.29.1+yaml@2.7.0'
+	node_modules/vite/types/customEvent.d.ts
+	  Imported via './customEvent' from file 'node_modules/vite/types/hot.d.ts' with packageId 'vite/types/customEvent.d.ts@6.2.1+jiti@2.4.2+lightningcss@1.29.1+yaml@2.7.0'
+	node_modules/vite/types/hot.d.ts
+	  Imported via './hot' from file 'node_modules/vite/types/importMeta.d.ts' with packageId 'vite/types/hot.d.ts@6.2.1+jiti@2.4.2+lightningcss@1.29.1+yaml@2.7.0'
+	node_modules/vite/types/importGlob.d.ts
+	  Imported via './importGlob' from file 'node_modules/vite/types/importMeta.d.ts' with packageId 'vite/types/importGlob.d.ts@6.2.1+jiti@2.4.2+lightningcss@1.29.1+yaml@2.7.0'
+	node_modules/vite/types/importMeta.d.ts
+	  Referenced via './types/importMeta.d.ts' from file 'node_modules/vite/client.d.ts'
+	node_modules/vite/client.d.ts
+	  Type library referenced via 'vite/client' from file 'src/vite-env.d.ts' with packageId 'vite/client.d.ts@6.2.1+jiti@2.4.2+lightningcss@1.29.1+yaml@2.7.0'
+	src/vite-env.d.ts
+	  Matched by include pattern 'src' in 'tsconfig.app.json'
+	node_modules/@babel/types/lib/index.d.ts
+	  Imported via "@babel/types" from file 'node_modules/@types/babel__generator/index.d.ts' with packageId '@babel/types/lib/index.d.ts@7.26.9'
+	  Imported via '@babel/types' from file 'node_modules/@babel/parser/typings/babel-parser.d.ts' with packageId '@babel/types/lib/index.d.ts@7.26.9'
+	  Imported via "@babel/types" from file 'node_modules/@types/babel__template/index.d.ts' with packageId '@babel/types/lib/index.d.ts@7.26.9'
+	  Imported via "@babel/types" from file 'node_modules/@types/babel__traverse/index.d.ts' with packageId '@babel/types/lib/index.d.ts@7.26.9'
+	  Imported via "@babel/types" from file 'node_modules/@types/babel__core/index.d.ts' with packageId '@babel/types/lib/index.d.ts@7.26.9'
+	  File is CommonJS module because 'node_modules/@babel/types/package.json' has field "type" whose value is not "module"
+	node_modules/@types/babel__generator/index.d.ts
+	  Imported via "@babel/generator" from file 'node_modules/@types/babel__core/index.d.ts' with packageId '@types/babel__generator/index.d.ts@7.6.8'
+	  Entry point for implicit type library 'babel__generator' with packageId '@types/babel__generator/index.d.ts@7.6.8'
+	node_modules/@babel/parser/typings/babel-parser.d.ts
+	  Imported via "@babel/parser" from file 'node_modules/@types/babel__core/index.d.ts' with packageId '@babel/parser/typings/babel-parser.d.ts@7.26.9'
+	  Imported via "@babel/parser" from file 'node_modules/@types/babel__template/index.d.ts' with packageId '@babel/parser/typings/babel-parser.d.ts@7.26.9'
+	  Imported via "@babel/parser" from file 'node_modules/@types/babel__core/index.d.ts' with packageId '@babel/parser/typings/babel-parser.d.ts@7.26.9'
+	  File is CommonJS module because 'node_modules/@babel/parser/package.json' has field "type" whose value is not "module"
+	node_modules/@types/babel__template/index.d.ts
+	  Imported via "@babel/template" from file 'node_modules/@types/babel__core/index.d.ts' with packageId '@types/babel__template/index.d.ts@7.4.4'
+	  Entry point for implicit type library 'babel__template' with packageId '@types/babel__template/index.d.ts@7.4.4'
+	node_modules/@types/babel__traverse/index.d.ts
+	  Imported via "@babel/traverse" from file 'node_modules/@types/babel__core/index.d.ts' with packageId '@types/babel__traverse/index.d.ts@7.20.6'
+	  Entry point for implicit type library 'babel__traverse' with packageId '@types/babel__traverse/index.d.ts@7.20.6'
+	node_modules/@types/babel__core/index.d.ts
+	  Entry point for implicit type library 'babel__core' with packageId '@types/babel__core/index.d.ts@7.20.5'
+	node_modules/@types/estree/index.d.ts
+	  Entry point for implicit type library 'estree' with packageId '@types/estree/index.d.ts@1.0.6'
+	node_modules/@types/json-schema/index.d.ts
+	  Entry point for implicit type library 'json-schema' with packageId '@types/json-schema/index.d.ts@7.0.15'
+	node_modules/@types/react-dom/index.d.ts
+	  Entry point for implicit type library 'react-dom' with packageId '@types/react-dom/index.d.ts@19.0.4+@types/react@19.0.10'
+
+Info 140  [16:41:03.495] -----------------------------------------------
+Info 141  [16:41:03.496] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "projectLoadingFinish",
+      "body": {
+        "projectName": "/p7/LiveProjects/resume2025/tsconfig.app.json"
+      }
+    }
+Info 142  [16:41:03.496] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "telemetry",
+      "body": {
+        "telemetryEventName": "projectInfo",
+        "payload": {
+          "projectId": "8699fc817d69bbc2b6b406359417efeeff11ec91a18ce3eab9fd08fb31b2430c",
+          "fileStats": {
+            "js": 0,
+            "jsSize": 0,
+            "jsx": 0,
+            "jsxSize": 0,
+            "ts": 0,
+            "tsSize": 0,
+            "tsx": 2,
+            "tsxSize": 15849,
+            "dts": 68,
+            "dtsSize": 3705186,
+            "deferred": 0,
+            "deferredSize": 0
+          },
+          "compilerOptions": {
+            "tsBuildInfoFile": "",
+            "target": "es2020",
+            "useDefineForClassFields": true,
+            "lib": [
+              "es2020",
+              "dom",
+              "dom.iterable"
+            ],
+            "module": "esnext",
+            "skipLibCheck": true,
+            "moduleResolution": "bundler",
+            "allowImportingTsExtensions": true,
+            "isolatedModules": true,
+            "moduleDetection": "force",
+            "noEmit": true,
+            "jsx": "react-jsx",
+            "strict": true,
+            "noUnusedLocals": true,
+            "noUnusedParameters": true,
+            "noFallthroughCasesInSwitch": true,
+            "noUncheckedSideEffectImports": true
+          },
+          "typeAcquisition": {
+            "enable": false,
+            "include": false,
+            "exclude": false
+          },
+          "extends": false,
+          "files": false,
+          "include": true,
+          "exclude": false,
+          "compileOnSave": false,
+          "configFileName": "other",
+          "projectType": "configured",
+          "languageServiceEnabled": true,
+          "version": "5.7.3"
+        }
+      }
+    }
+Info 143  [16:41:03.496] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "configFileDiag",
+      "body": {
+        "triggerFile": "/p7/LiveProjects/resume2025/tsconfig.app.json",
+        "configFile": "/p7/LiveProjects/resume2025/tsconfig.app.json",
+        "diagnostics": []
+      }
+    }
+Perf 144  [16:41:03.496] 5::ideOpenExternalProject: elapsed time (in milliseconds) 369.5499
+Info 145  [16:41:03.496] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "ideOpenExternalProject",
+      "request_seq": 5,
+      "success": true,
+      "body": true
+    }
+Info 146  [16:41:03.496] request:
+    {"sessionId":1741650062320,"seq":6,"type":"request","command":"open","arguments":{"projectFileName":"/p7/LiveProjects/resume2025/tsconfig.app.json","file":"/p7/LiveProjects/resume2025/src/App.tsx"}}
+Info 147  [16:41:03.496] FileWatcher:: Close:: WatchInfo: /p7/LiveProjects/resume2025/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 148  [16:41:03.497] getConfigFileNameForFile:: File: /p7/LiveProjects/resume2025/src/App.tsx ProjectRootPath: undefined:: Result: /p7/LiveProjects/resume2025/tsconfig.json
+Info 149  [16:41:03.497] Creating ConfiguredProject: /p7/LiveProjects/resume2025/tsconfig.json, currentDirectory: /p7/LiveProjects/resume2025
+Info 150  [16:41:03.497] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/tsconfig.json 2000 undefined Project: /p7/LiveProjects/resume2025/tsconfig.json WatchType: Config file
+Info 151  [16:41:03.497] Config: /p7/LiveProjects/resume2025/tsconfig.json : {
+ "rootNames": [],
+ "options": {
+  "configFilePath": "/p7/LiveProjects/resume2025/tsconfig.json"
+ },
+ "projectReferences": [
+  {
+   "path": "/p7/LiveProjects/resume2025/tsconfig.app.json",
+   "originalPath": "./tsconfig.app.json"
+  },
+  {
+   "path": "/p7/LiveProjects/resume2025/tsconfig.node.json",
+   "originalPath": "./tsconfig.node.json"
+  }
+ ]
+}
+Info 152  [16:41:03.498] `remove Project::
+Info 153  [16:41:03.498] Project '/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json' (Configured)
+Info 154  [16:41:03.498] 	Files (8)
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.dom.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.scripthost.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.d.ts
+	/p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+	/home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts
+
+
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts
+	  Default library for target 'es5'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts
+	  Library referenced via 'es5' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.dom.d.ts
+	  Library referenced via 'dom' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	  Library referenced via 'webworker.importscripts' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.scripthost.d.ts
+	  Library referenced via 'scripthost' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.d.ts
+	  Library referenced via 'decorators' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts'
+	../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+	  Library referenced via 'decorators.legacy' from file '../../../../../../../../p7/LiveProjects/resume2025/node_modules/typescript/lib/lib.es5.d.ts'
+	init.ts
+	  Matched by default include pattern '**/*'
+
+Info 155  [16:41:03.498] -----------------------------------------------
+Info 156  [16:41:03.498] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript 1 undefined Config: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Wild card directory
+Info 157  [16:41:03.498] Elapsed:: 0.1397190000000137ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript 1 undefined Config: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Wild card directory
+Info 158  [16:41:03.498] FileWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json 2000 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Config file
+Info 159  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 160  [16:41:03.499] Elapsed:: 0.08794499999999061ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 161  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 162  [16:41:03.499] Elapsed:: 0.08649199999990742ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 163  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 164  [16:41:03.499] Elapsed:: 0.013063999999985754ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 165  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 166  [16:41:03.499] Elapsed:: 0.01203099999997903ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 167  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 168  [16:41:03.499] Elapsed:: 0.006497999999965032ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 169  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 170  [16:41:03.499] Elapsed:: 0.007800999999972191ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/node_modules 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Failed Lookup Locations
+Info 171  [16:41:03.499] FileWatcher:: Close:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/typescript/lib/package.json 2000 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: File location affecting resolution
+Info 172  [16:41:03.499] FileWatcher:: Close:: WatchInfo: /p7/LiveProjects/resume2025/node_modules/typescript/package.json 2000 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: File location affecting resolution
+Info 173  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 174  [16:41:03.499] Elapsed:: 0.010277000000087355ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 175  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 176  [16:41:03.499] Elapsed:: 0.009479999999939537ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 177  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 178  [16:41:03.499] Elapsed:: 0.022594000000026426ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 179  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 180  [16:41:03.499] Elapsed:: 0.042308000000048196ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 181  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 182  [16:41:03.499] Elapsed:: 0.021328000000039538ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 183  [16:41:03.499] DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 184  [16:41:03.499] Elapsed:: 0.008486000000175409ms DirectoryWatcher:: Close:: WatchInfo: /home/lance/Applications/node_modules/@types 1 undefined Project: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/tsconfig.json WatchType: Type roots
+Info 185  [16:41:03.499] FileWatcher:: Close:: WatchInfo: /home/lance/Applications/WebStorm/plugins/javascript-plugin/jsLanguageServicesImpl/typescript/init.ts 500 undefined WatchType: Closed Script info
+Info 186  [16:41:03.499] Project '/p7/LiveProjects/resume2025/tsconfig.app.json' (Configured)
+Info 186  [16:41:03.499] 	Files (70)
+
+Info 186  [16:41:03.499] -----------------------------------------------
+Info 186  [16:41:03.499] Project '/p7/LiveProjects/resume2025/tsconfig.json' (Configured)
+Info 186  [16:41:03.499] 	Files (0) InitialLoadPending
+
+Info 186  [16:41:03.499] -----------------------------------------------
+Info 186  [16:41:03.499] Open files: 
+Info 186  [16:41:03.499] 	FileName: /p7/LiveProjects/resume2025/src/App.tsx ProjectRootPath: undefined
+Info 186  [16:41:03.499] 		Projects: /p7/LiveProjects/resume2025/tsconfig.app.json
+Info 186  [16:41:03.499] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "open",
+      "request_seq": 6,
+      "success": true
+    }
+Perf 187  [16:41:03.500] 6::open: async elapsed time (in milliseconds) 3.1323
+Info 188  [16:41:03.500] request:
+    {"sessionId":1741650062320,"seq":7,"type":"request","command":"change","arguments":{"endLine":280,"endOffset":1,"insertString":"// (c)2025 Lance Stubblefield - Resume Project\n\nimport \u0027./App.css\u0027\n\nfunction App() {\n    const skills \u003d [\n        {title: \"Front End\", description: \"React.js, Typescript, TailwindsCSS, PostCSS, Bootstrap CSS/JS\"},\n        {title: \"Back End\", description: \"Node.js, Express, Next, Passport\"},\n        {title: \"Database\", description: \"PostgreSQL, Access, MongoDB\"},\n        {title: \"User Experience\", description: \"Wireframe, Figma, Penpot, Gimp\"}\n    ]\n    // const experiences \u003d [\n    //     {title: \"20 Years\", category: \"Programming\", description: \"Various languages and environments. My first program was in early machine language.\"},\n    //     {title: \"React.js\", category: \"Front-End\", description: \"React.js\"},\n    //     {title: \"React.js\", category: \"Front-End\", description: \"React.js\"},\n    //     {title: \"React.js\", category: \"Front-End\", description: \"React.js\"},\n    //     {title: \"React.js\", category: \"Front-End\", description: \"React.js\"},\n    // ]\n    const credentials \u003d [\n        {title: \"Passport/RealID\", description: \"Able to travel in the US and abroud\"},\n        {title: \"FA/CPR/AED\", description: \"First-Aid, CPR, and AED certificate from the Red Cross\"},\n        {title: \"FAA Remote Pilot\", description: \"Commercial drone photography\"},\n        {title: \"WA Boaters Card\", description: \"Can operate small watercraft\"},\n        {title: \"SDI Open Water, Dry Suit Dive Cert\", description: \"Underwater photography\"},\n\n    ]\n    const certificates \u003d [\n        {title: \"IBM Full Stack Developer\", description: \"React.js, Node.js, Next, Express\"},\n        {title: \"Meta Front-End Developer\", description: \"React.js, CSS\"},\n        {title: \"Google SEO Fundamentals\", description: \"Search Engine Optimization\"},\n        {title: \"Google UX Design Professional\", description: \"Wireframe, Figma\"},\n        {title: \"John Hopkins HTML/CSS/JS\", description: \"HTML, CSS, Javascript, Ajax\"},\n    ]\n    const whyThis \u003d [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]\n    const filmFrames \u003d [\n        {alt: \"Maui Sunset\", src: \"images/beachsunset.webp\"},\n        {alt: \"Paula Lake Trail Sign\", src: \"images/lakesign.webp\"},\n        {alt: \"Mountain Trail\", src: \"images/woods.webp\"},\n        {alt: \"Tropical Shore\", src: \"images/bluewater.webp\"},\n        {alt: \"Island Sunset\", src: \"images/sunset.webp\"},\n    ]\n\n    return (\n        \u003cdiv className\u003d\"resumePage\"\u003e\n            \u003cdiv className\u003d\"resumeTop\"\u003e\n                \u003cdiv className\u003d\"resumeLeft\"\u003e\n                    \u003cdiv className\u003d\"title\"\u003eresume.sol3.one\u003c/div\u003e\n                    \u003cdiv className\u003d\"avatar\"\u003e\u003c/div\u003e\n                    \u003cdiv className\u003d\"credentials\"\u003e\n                        \u003ch4\u003eCredentials\u003c/h4\u003e\n                        \u003cdiv className\u003d\"tableContainer\"\u003e\n                            {credentials.map((credential, index) \u003d\u003e (\n                                \u003cdiv className\u003d\"tableBlock\" key\u003d{index}\u003e\n                                    \u003cdiv className\u003d\"tableCell5\"\u003e{credential.title}\u003c/div\u003e\n                                    \u003cdiv className\u003d\"tableCell6\"\u003e{credential.description}\u003c/div\u003e\n                                \u003c/div\u003e\n                            ))}\n                        \u003c/div\u003e\n                    \u003c/div\u003e\n                    \u003cdiv className\u003d\"certificates\"\u003e\n                        \u003ch4\u003eCertificates\u003c/h4\u003e\n                        \u003cdiv className\u003d\"tableContainer\"\u003e\n                            {certificates.map((certificate, index) \u003d\u003e (\n                                \u003cdiv className\u003d\"tableBlock\" key\u003d{index}\u003e\n                                    \u003cdiv className\u003d\"tableCell5\"\u003e{certificate.title}\u003c/div\u003e\n                                    \u003cdiv className\u003d\"tableCell6\"\u003e{certificate.description}\u003c/div\u003e\n                                \u003c/div\u003e\n                            ))}\n                        \u003c/div\u003e\n\n                    \u003c/div\u003e\n                    \u003cdiv className\u003d\"links\"\u003e\n                        \u003cul\u003e\n                            \u003cli\u003e\n                                \u003ca target\u003d\"_blank\" href\u003d\"https://portfolio.sol3.one\"\u003e\n                                    \u003cdiv className\u003d\"linkCell\"\u003e\n                                        \u003cdiv className\u003d\"linkImage\"\u003e\n                                            \u003cimg src\u003d\"images/serious.png\" alt\u003d\"serious Lance\"/\u003e\n                                        \u003c/div\u003e\n                                        \u003cdiv className\u003d\"portfolioCell\"\u003e\n                                            \u003cdiv className\u003d\"linkTitle\"\u003eOnline Portfolio\u003c/div\u003e\n                                            \u003cdiv className\u003d\"linkAddress\"\u003eportfolio.sol3.one\u003c/div\u003e\n                                        \u003c/div\u003e\n                                    \u003c/div\u003e\n                                \u003c/a\u003e\n                            \u003c/li\u003e\n                            \u003cli\u003e\n                                \u003ca target\u003d\"_blank\"\n                                   href\u003d\"https://www.linkedin.com/in/lance-stubblefield-designer/\"\u003e\n                                    \u003cdiv className\u003d\"linkCell\"\u003e\n                                        \u003cdiv className\u003d\"linkIcon\"\u003e\n                                            \u003cimg src\u003d\"images/linkedin.png\" alt\u003d\"LinkedIn\"/\u003e\n                                        \u003c/div\u003e\n                                        \u003cdiv className\u003d\"portfolioCell\"\u003e\n                                            \u003cdiv className\u003d\"linkTitle\"\u003eLinkedIn\u003c/div\u003e\n                                            \u003cdiv className\u003d\"linkAddress\"\u003elinkedin.sol3.one\u003c/div\u003e\n                                        \u003c/div\u003e\n                                    \u003c/div\u003e\n\n                                \u003c/a\u003e\n                            \u003c/li\u003e\n                            \u003cli\u003e\n                                \u003ca target\u003d\"_blank\" href\u003d\"https://github.com/TimeSentinel\"\u003e\n                                    \u003cdiv className\u003d\"linkCell\"\u003e\n                                        \u003cdiv className\u003d\"linkIcon\"\u003e\n                                            \u003cimg src\u003d\"images/github.png\" alt\u003d\"GitHub\"/\u003e\n                                        \u003c/div\u003e\n                                        \u003cdiv className\u003d\"portfolioCell\"\u003e\n                                            \u003cdiv className\u003d\"linkTitle\"\u003eGitHub\u003c/div\u003e\n                                            \u003cdiv className\u003d\"linkAddress\"\u003egithub.sol3.one\u003c/div\u003e\n                                        \u003c/div\u003e\n                                    \u003c/div\u003e\n\n                                \u003c/a\u003e\n                            \u003c/li\u003e\n                            \u003cli\u003e\n                                \u003ca target\u003d\"_blank\" href\u003d\"https://www.upwork.com/freelancers/~01b480b3ffdda5cdfa\"\u003e\n                                    \u003cdiv className\u003d\"linkCell\"\u003e\n                                        \u003cdiv className\u003d\"linkIcon\"\u003e\n                                            \u003cimg src\u003d\"images/upwork.png\" alt\u003d\"Upwork\"/\u003e\n                                        \u003c/div\u003e\n                                        \u003cdiv className\u003d\"portfolioCell\"\u003e\n                                            \u003cdiv className\u003d\"linkTitle\"\u003eUpwork\u003c/div\u003e\n                                            \u003cdiv className\u003d\"linkAddress\"\u003eupwork.sol3.one\u003c/div\u003e\n                                        \u003c/div\u003e\n                                    \u003c/div\u003e\n\n                                \u003c/a\u003e\n                            \u003c/li\u003e\n                            \u003cli\u003e\n                                \u003ca target\u003d\"_blank\" href\u003d\"https://www.freelancer.com/u/lstubble4444\"\u003e\n                                    \u003cdiv className\u003d\"linkCell\"\u003e\n                                        \u003cdiv className\u003d\"linkIcon\"\u003e\n                                            \u003cimg src\u003d\"images/freelancer.png\" alt\u003d\"Freelancer\"/\u003e\n                                        \u003c/div\u003e\n                                        \u003cdiv className\u003d\"portfolioCell\"\u003e\n                                            \u003cdiv className\u003d\"linkTitle\"\u003eFreelancer\u003c/div\u003e\n                                            \u003cdiv className\u003d\"linkAddress\"\u003efreelancer.sol3.one\u003c/div\u003e\n                                        \u003c/div\u003e\n                                    \u003c/div\u003e\n\n                                \u003c/a\u003e\n                            \u003c/li\u003e\n                        \u003c/ul\u003e\n                    \u003c/div\u003e\n                \u003c/div\u003e\n                \u003cdiv className\u003d\"resumeMain\"\u003e\n                    \u003cdiv className\u003d\"resumeTitle\"\u003e\u003ch1\u003eLance Stubblefield\u003c/h1\u003e\u003c/div\u003e\n                    \u003cdiv className\u003d\"resumeIntro\"\u003e\n                        \u003ch2\u003eExperienced Web Developer\u003c/h2\u003e\n                        \u003cp\u003eI have always been a creator - I love to design and build.\u003cbr/\u003e\n                            This is why web design is so enjoyable to me and why I am constantly learning new skills\n                            and practicing my old skills.\u003cbr/\u003e\u003cbr/\u003e\n                            Every project is unique and gives me an opportunity to learn from my customers and partners.\n                            What does their business do? How do their customers find them? How do they want their\n                            company represented? \u003cbr/\u003e\u003cbr/\u003e\n                            My job is to create a bridge across the gap between a business\u0027s\n                            image and what their customer wants to find.\n                        \u003c/p\u003e\n                    \u003c/div\u003e\n                    \u003chr className\u003d\"resumeHR\"/\u003e\n                    \u003cdiv className\u003d\"resumeSection\"\u003e\n                        \u003ch3\u003eWhat I\u0027m Looking For\u003c/h3\u003e\n                        \u003cp\u003eOpportunities to help others and find solutions. I see myself as a troubleshooter and problem\n                            solver.\u003c/p\u003e\n                    \u003c/div\u003e\n                    \u003cdiv className\u003d\"resumeSection\"\u003e\n                        \u003ch3\u003eSkills\u003c/h3\u003e\n                        \u003cdiv className\u003d\"tableContainer\"\u003e\n                            {skills.map((skill, index) \u003d\u003e (\n                                \u003cdiv className\u003d\"tableRow\" key\u003d{index}\u003e\n                                    \u003cdiv className\u003d\"tableCell1\"\u003e{skill.title}\u003c/div\u003e\n                                    \u003cdiv className\u003d\"tableCell4\"\u003e{skill.description}\u003c/div\u003e\n                                \u003c/div\u003e\n                            ))}\n                        \u003c/div\u003e\n                    \u003c/div\u003e\n                    {/*\u003cdiv className\u003d\"resumeSection\"\u003e*/}\n                    {/*    \u003ch3\u003eExperience\u003c/h3\u003e*/}\n                    {/*    \u003cdiv className\u003d\"tableContainer\"\u003e*/}\n                    {/*        {experiences.map((experience, index) \u003d\u003e (*/}\n                    {/*            \u003cdiv className\u003d\"tableRow\" key\u003d{index}\u003e*/}\n                    {/*                \u003cdiv className\u003d\"tableCell1\"\u003e{experience.title}\u003c/div\u003e*/}\n                    {/*                \u003cdiv className\u003d\"tableCell2\"\u003e{experience.category}\u003c/div\u003e*/}\n                    {/*                \u003cdiv className\u003d\"tableCell3\"\u003e{experience.description}\u003c/div\u003e*/}\n                    {/*            \u003c/div\u003e*/}\n                    {/*        ))}*/}\n                    {/*    \u003c/div\u003e*/}\n                    {/*\u003c/div\u003e*/}\n                    \u003cdiv className\u003d\"resumeExamples\"\u003e\n                        \u003ch3\u003eExamples of Work\u003c/h3\u003e\n                        \u003cdiv className\u003d\"exampleRow\"\u003e\n                            \u003cdiv className\u003d\"exampleImage1\"\u003e\u003c/div\u003e\n                            \u003cdiv className\u003d\"exampleSummary\"\u003e\n                                \u003cdiv className\u003d\"exampleTitle\"\u003eRestaurant - React/Typescript, Express, PostgreSQL\u003c/div\u003e\n                                \u003cdiv className\u003d\"exampleDescription\"\u003e\n                                    \u003cp\u003eCreated two fully responsive variations.\u003cbr/\u003e\n                                        \u003cul\u003e\n                                            \u003cli\u003eOne using simple JSON files for editable content.\u003c/li\u003e\n                                            \u003cli\u003eThe other has a PostgreSQL database and admin CMS page.\u003c/li\u003e\n                                        \u003c/ul\u003e\n                                        I created several \u0027modules\u0027: Themes, Navigation, Products/Cart, Contact,\n                                        Gallery, News/Blog.\n                                    \u003c/p\u003e\n                                \u003c/div\u003e\n                            \u003c/div\u003e\n                        \u003c/div\u003e\n                        \u003cdiv className\u003d\"exampleRow\"\u003e\n                            \u003cdiv className\u003d\"exampleSummary\"\u003e\n                                \u003cdiv className\u003d\"exampleTitle\"\u003eM\u0026M Cleaning Services - Wordpress, Facebook Pages\u003c/div\u003e\n                                \u003cdiv className\u003d\"exampleDescription\"\u003e\n                                    \u003cp\u003eLocal janitorial company wanted a simple, professional look to represent their\n                                        business. \u003cbr/\u003e\n                                        Includes contact and tied in Facebook page.\n                                    \u003c/p\u003e\n                                \u003c/div\u003e\n                            \u003c/div\u003e\n                            \u003cdiv className\u003d\"exampleImage2\"\u003e\u003c/div\u003e\n                        \u003c/div\u003e\n                        \u003cdiv className\u003d\"exampleRow\"\u003e\n                            \u003cdiv className\u003d\"exampleImage3\"\u003e\u003c/div\u003e\n                            \u003cdiv className\u003d\"exampleSummary\"\u003e\n                                \u003cdiv className\u003d\"exampleTitle\"\u003eCNC Router Pros - React/Typescript, Tailwind CSS\u003c/div\u003e\n                                \u003cdiv className\u003d\"exampleDescription\"\u003e\n                                    \u003cp\u003eManufacturing company\u0027s web-presence site with contact form that includes file\n                                        uploads. \u003cbr/\u003e\n                                        Fully responsive, static pages with navigation, gallery, and contact page.\n                                    \u003c/p\u003e\n                                \u003c/div\u003e\n                            \u003c/div\u003e\n                        \u003c/div\u003e\n                        \u003cdiv className\u003d\"exampleRow\"\u003e\n                            \u003cdiv className\u003d\"exampleSummary\"\u003e\n                                \u003cdiv className\u003d\"exampleTitle\"\u003eFuzzy Taco - React/Typescript, PostCSS\u003c/div\u003e\n                                \u003cdiv className\u003d\"exampleDescription\"\u003e\n                                    \u003cp\u003eDemonstration site for restaurant.\u003cbr/\u003e\n                                        Single-page, simple menu, gallery, contact, and simple menu. \u003cbr/\u003e\n                                        Uses JSON for menu and gallery\n                                    \u003c/p\u003e\n                                \u003c/div\u003e\n                            \u003c/div\u003e\n                            \u003cdiv className\u003d\"exampleImage4\"\u003e\u003c/div\u003e\n                        \u003c/div\u003e\n                    \u003c/div\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n            \u003cdiv className\u003d\"resumeBottom\"\u003e\n                \u003cdiv className\u003d\"filmstrip\"\u003e\n                    \u003cdiv className\u003d\"filmRack\"\u003e\n                        {whyThis.map((item) \u003d\u003e (\n                            \u003cdiv className\u003d\"filmHole\" key\u003d{item}\u003e\u003c/div\u003e\n                        ))}\n                    \u003c/div\u003e\n\n                    \u003cdiv className\u003d\"filmFrames\"\u003e\n                        {filmFrames.map((frame, index) \u003d\u003e (\n                            \u003cdiv className\u003d\"frame\" key\u003d{index}\u003e\n                                \u003cimg src\u003d{frame.src} alt\u003d{frame.alt}/\u003e\n                            \u003c/div\u003e\n                        ))}\n                    \u003c/div\u003e\n\n                    \u003cdiv className\u003d\"filmRack\"\u003e\n                        {whyThis.map((item) \u003d\u003e (\n                            \u003cdiv className\u003d\"filmHole\" key\u003d{item}\u003e\u003c/div\u003e\n                        ))}\n                    \u003c/div\u003e\n                \u003c/div\u003e\n                \u003cdiv className\u003d\"tagline\"\u003e\n                    \u003cdiv className\u003d\"tagLeft\"\u003e \u0026copy;2025 Lance Stubblefield\u003c/div\u003e\n                    \u003cdiv className\u003d\"tagCenter\"\u003e\u003c/div\u003e\n                    \u003cdiv className\u003d\"tagRight\"\u003ePhotographs taken by Lance\u003c/div\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        \u003c/div\u003e\n    )\n}\n\nexport default App\n","line":1,"offset":1,"file":"/p7/LiveProjects/resume2025/src/App.tsx"}}
+Info 189  [16:41:03.502] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "change",
+      "request_seq": 7,
+      "success": true
+    }
+Perf 190  [16:41:03.502] 7::change: async elapsed time (in milliseconds) 2.3339
+Info 191  [16:41:03.502] request:
+    {"sessionId":1741650062320,"seq":8,"type":"request","command":"geterr","arguments":{"files":["/p7/LiveProjects/resume2025/src/App.tsx"],"delay":620}}
+Perf 192  [16:41:03.502] 8::geterr: async elapsed time (in milliseconds) 0.5439
+Info 193  [16:41:03.503] request:
+    {"sessionId":1741650062320,"seq":9,"type":"request","command":"provideInlayHints","arguments":{"start":224,"length":3654,"file":"/p7/LiveProjects/resume2025/src/App.tsx"}}
+Info 194  [16:41:03.503] Starting updateGraphWorker: Project: /p7/LiveProjects/resume2025/tsconfig.app.json
+Info 195  [16:41:03.512] Finishing updateGraphWorker: Project: /p7/LiveProjects/resume2025/tsconfig.app.json projectStateVersion: 2 projectProgramVersion: 1 structureChanged: false structureIsReused:: Completely Elapsed: 9.424099999999953ms
+Info 196  [16:41:03.512] Different program with same set of files
+Perf 197  [16:41:03.629] 9::provideInlayHints: elapsed time (in milliseconds) 126.2907
+Info 198  [16:41:03.629] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "provideInlayHints",
+      "request_seq": 9,
+      "success": true,
+      "performanceData": {
+        "updateGraphDurationMs": 9.424099999999953
+      },
+      "body": [
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "Element",
+              "span": {
+                "start": {
+                  "line": 6,
+                  "offset": 15
+                },
+                "end": {
+                  "line": 6,
+                  "offset": 22
+                },
+                "file": "/p7/LiveProjects/resume2025/node_modules/@types/react/jsx-runtime.d.ts"
+              }
+            }
+          ],
+          "position": {
+            "line": 5,
+            "offset": 15
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "{"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "title"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": "; "
+            },
+            {
+              "text": "description"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "}"
+            },
+            {
+              "text": "[]"
+            }
+          ],
+          "position": {
+            "line": 6,
+            "offset": 17
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "{"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "title"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": "; "
+            },
+            {
+              "text": "description"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "}"
+            },
+            {
+              "text": "[]"
+            }
+          ],
+          "position": {
+            "line": 19,
+            "offset": 22
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "{"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "title"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": "; "
+            },
+            {
+              "text": "description"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "}"
+            },
+            {
+              "text": "[]"
+            }
+          ],
+          "position": {
+            "line": 27,
+            "offset": 23
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "number"
+            },
+            {
+              "text": "[]"
+            }
+          ],
+          "position": {
+            "line": 34,
+            "offset": 18
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "{"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "alt"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": "; "
+            },
+            {
+              "text": "src"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "}"
+            },
+            {
+              "text": "[]"
+            }
+          ],
+          "position": {
+            "line": 35,
+            "offset": 21
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "{"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "title"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": "; "
+            },
+            {
+              "text": "description"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "}"
+            }
+          ],
+          "position": {
+            "line": 52,
+            "offset": 57
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "number"
+            }
+          ],
+          "position": {
+            "line": 52,
+            "offset": 64
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "Element",
+              "span": {
+                "start": {
+                  "line": 6,
+                  "offset": 15
+                },
+                "end": {
+                  "line": 6,
+                  "offset": 22
+                },
+                "file": "/p7/LiveProjects/resume2025/node_modules/@types/react/jsx-runtime.d.ts"
+              }
+            }
+          ],
+          "position": {
+            "line": 52,
+            "offset": 65
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "{"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "title"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": "; "
+            },
+            {
+              "text": "description"
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "string"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "}"
+            }
+          ],
+          "position": {
+            "line": 63,
+            "offset": 59
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "number"
+            }
+          ],
+          "position": {
+            "line": 63,
+            "offset": 66
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        },
+        {
+          "text": "",
+          "displayParts": [
+            {
+              "text": ": "
+            },
+            {
+              "text": "Element",
+              "span": {
+                "start": {
+                  "line": 6,
+                  "offset": 15
+                },
+                "end": {
+                  "line": 6,
+                  "offset": 22
+                },
+                "file": "/p7/LiveProjects/resume2025/node_modules/@types/react/jsx-runtime.d.ts"
+              }
+            }
+          ],
+          "position": {
+            "line": 63,
+            "offset": 67
+          },
+          "kind": "Type",
+          "whitespaceBefore": true
+        }
+      ]
+    }
+Info 199  [16:41:03.629] request:
+    {"sessionId":1741650062320,"seq":10,"type":"request","command":"quickinfo","arguments":{"line":39,"offset":38,"file":"/p7/LiveProjects/resume2025/src/App.tsx"}}
+Perf 200  [16:41:03.631] 10::quickinfo: elapsed time (in milliseconds) 1.6979
+Info 201  [16:41:03.631] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "quickinfo",
+      "request_seq": 10,
+      "success": false,
+      "message": "No content available."
+    }
+Info 202  [16:41:03.632] request:
+    {"sessionId":1741650062320,"seq":11,"type":"request","command":"geterr","arguments":{"files":["/p7/LiveProjects/resume2025/src/App.tsx"],"delay":620}}
+Info 203  [16:41:03.632] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "requestCompleted",
+      "body": {
+        "request_seq": 8
+      }
+    }
+Perf 204  [16:41:03.632] 11::geterr: async elapsed time (in milliseconds) 0.3838
+Info 205  [16:41:04.064] request:
+    {"sessionId":1741650062320,"seq":12,"type":"request","command":"geterr","arguments":{"files":["/p7/LiveProjects/resume2025/src/App.tsx"],"delay":620}}
+Info 206  [16:41:04.064] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "requestCompleted",
+      "body": {
+        "request_seq": 11
+      }
+    }
+Perf 207  [16:41:04.064] 12::geterr: async elapsed time (in milliseconds) 0.7237
+Info 208  [16:41:04.685] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "syntaxDiag",
+      "body": {
+        "file": "/p7/LiveProjects/resume2025/src/App.tsx",
+        "diagnostics": []
+      }
+    }
+Info 209  [16:41:04.794] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "semanticDiag",
+      "body": {
+        "file": "/p7/LiveProjects/resume2025/src/App.tsx",
+        "diagnostics": []
+      }
+    }
+Info 210  [16:41:04.798] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "suggestionDiag",
+      "body": {
+        "file": "/p7/LiveProjects/resume2025/src/App.tsx",
+        "diagnostics": []
+      }
+    }
+Info 211  [16:41:04.798] event:
+    {
+      "seq": 0,
+      "type": "event",
+      "event": "requestCompleted",
+      "body": {
+        "request_seq": 12,
+        "performanceData": {
+          "diagnosticsDuration": [
+            {
+              "syntaxDiag": 0.44674499999973705,
+              "semanticDiag": 107.62580100000014,
+              "suggestionDiag": 1.823069999999916,
+              "file": "/p7/LiveProjects/resume2025/src/App.tsx"
+            }
+          ]
+        }
+      }
+    }
+Err 212   [16:42:02.366] Process 1741650062320 heartbeat: "alive" 
+Err 213   [16:43:02.366] Process 1741650062320 heartbeat: "alive" 
+Err 214   [16:44:02.367] Process 1741650062320 heartbeat: "alive" 
+Err 215   [16:45:02.368] Process 1741650062320 heartbeat: "alive" 
+Info 216  [16:45:14.658] request:
+    {"sessionId":1741650062320,"seq":13,"type":"request","command":"closeExternalProject","arguments":{"projectFileName":"/p7/LiveProjects/resume2025/tsconfig.app.json"}}
+Info 217  [16:45:14.658] Project '/p7/LiveProjects/resume2025/tsconfig.app.json' (Configured)
+Info 217  [16:45:14.658] 	Files (70)
+
+Info 217  [16:45:14.658] -----------------------------------------------
+Info 217  [16:45:14.658] Project '/p7/LiveProjects/resume2025/tsconfig.json' (Configured)
+Info 217  [16:45:14.658] 	Files (0) InitialLoadPending
+
+Info 217  [16:45:14.658] -----------------------------------------------
+Info 217  [16:45:14.658] Open files: 
+Info 217  [16:45:14.659] 	FileName: /p7/LiveProjects/resume2025/src/App.tsx ProjectRootPath: undefined
+Info 217  [16:45:14.659] 		Projects: /p7/LiveProjects/resume2025/tsconfig.app.json
+Perf 217  [16:45:14.659] 13::closeExternalProject: elapsed time (in milliseconds) 1.0981
+Info 218  [16:45:14.659] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "closeExternalProject",
+      "request_seq": 13,
+      "success": true,
+      "body": true
+    }
+Info 219  [16:45:14.659] request:
+    {"sessionId":1741650062320,"seq":14,"type":"request","command":"close","arguments":{"file":"/p7/LiveProjects/resume2025/src/App.tsx"}}
+Info 220  [16:45:14.659] FileWatcher:: Added:: WatchInfo: /p7/LiveProjects/resume2025/src/App.tsx 500 undefined WatchType: Closed Script info
+Info 221  [16:45:14.659] Project '/p7/LiveProjects/resume2025/tsconfig.app.json' (Configured)
+Info 221  [16:45:14.660] 	Files (70)
+
+Info 221  [16:45:14.660] -----------------------------------------------
+Info 221  [16:45:14.660] Project '/p7/LiveProjects/resume2025/tsconfig.json' (Configured)
+Info 221  [16:45:14.660] 	Files (0) InitialLoadPending
+
+Info 221  [16:45:14.660] -----------------------------------------------
+Info 221  [16:45:14.660] Open files: 
+Info 221  [16:45:14.660] response:
+    {
+      "seq": 0,
+      "type": "response",
+      "command": "close",
+      "request_seq": 14,
+      "success": true
+    }
+Perf 222  [16:45:14.660] 14::close: async elapsed time (in milliseconds) 0.8900

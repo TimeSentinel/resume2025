@@ -6,7 +6,7 @@
 
 .resumePage {
 
-    @apply m-2 bg-white text-gray-700 shadow-lg shadow-gray-400;
+    @apply m- bg-white text-gray-700 shadow-lg shadow-gray-400;
 
     .tableContainer {
         .tableRow {
@@ -284,9 +284,7 @@
         transform: scale(.90)
     }
 
-    body {
-        visibility: hidden;
-    }
+
 
     .resumePage {
         visibility: visible;
